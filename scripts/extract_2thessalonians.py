@@ -9,7 +9,7 @@ BOOK_NAME   = "2 Thessalonians"
 START_PAGE  = 2382
 END_PAGE    = 2396
 PDF_PATH    = os.path.join(_ROOT, "..", "The Passion Translation.pdf")
-OUTPUT_PATH = os.path.join(_ROOT, "TPT", "TPT_2Thessalonians.json")
+OUTPUT_PATH = os.path.join(_ROOT, "TPT", "TPT_2_Thessalonians.json")
 
 if __name__ == '__main__':
     print(f"Extracting {BOOK_NAME}…")

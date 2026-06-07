@@ -64,7 +64,7 @@ All split verses carry a `combined_source` field in the JSON indicating the orig
 - **Footnotes with cross_references:** 11
 - **Total cross_references:** 28
 - **Script:** `extract_2thessalonians.py` (v3 parser)
-- **Output:** `TPT/TPT_2Thessalonians.json`
+- **Output:** `TPT/TPT_2_Thessalonians.json`
 - **Note:** Ch1:V1 footnotes [a], [b], [c] each reference 1 Thess 1:1 — correct (companion letter). Ch3:V3 [c] self-references 2 Thess 3:3 — handled gracefully. Combined verse manually split.
 
 **Combined verses — split applied:**
@@ -81,7 +81,7 @@ All split verses carry a `combined_source` field in the JSON indicating the orig
 - **Footnotes with cross_references:** 12
 - **Total cross_references:** 27
 - **Script:** `extract_1thessalonians.py` (v3 — improved cross-reference parser)
-- **Output:** `TPT/TPT_1Thessalonians.json`
+- **Output:** `TPT/TPT_1_Thessalonians.json`
 - **Combined verses:** None — no splits required.
 - **Parser improvements in v3 (applies to all future scripts):**
   - Fixed line-break hyphen in verse ranges: `"17:1– 16"` → `"17:1–16"` (digits now included in hyphen-collapse regex)
