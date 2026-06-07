@@ -1,0 +1,12 @@
+# Source PDF (large binary — not tracked in git)
+*.pdf
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# OS files
+.DS_Store
+Thumbs.db

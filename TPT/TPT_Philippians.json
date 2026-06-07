@@ -1,0 +1,920 @@
+{
+  "book": "Philippians",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Dear friends in Philippi, My name is Paul and I’m joined by Timothy, {a} both of us servants of Jesus, the Anointed One. We write this letter to all his devoted followers in your city, including your pastors, {b} and to all the servant-leaders {c} of the church.",
+          "combined_source": [
+            1,
+            2
+          ],
+          "footnotes": [
+            {
+              "marker": "a",
+              "text": "Timothy was Paul’s convert, coworker, and spiritual son. See 1 Tim. 1:2.",
+              "cross_references": [
+                {
+                  "book": "1 Timothy",
+                  "chapter": 1,
+                  "verse_start": 2,
+                  "verse_end": 2
+                }
+              ]
+            },
+            {
+              "marker": "b",
+              "text": "Or “guardians,” as translated from the Greek. The Aramaic text uses the word priests, and could refer to Jewish priests who had received Jesus as the Messiah."
+            },
+            {
+              "marker": "c",
+              "text": "As translated from the Aramaic. The Greek text is “deacons.” The word for deacon is actually taken from a Greek compound of the words dia and kovis that means “to kick up the dust,” referring to a servant who is so swift to accomplish his service that he stirs up the dust of the street running to fulfill his duty."
+            }
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "May the blessings of divine grace and supernatural peace that flow from God our wonderful Father, and our Messiah, the Lord Jesus, be upon your lives.",
+          "combined_source": [
+            1,
+            2
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "My prayers for you are full of praise to God as I give him thanks for you with great joy!",
+          "combined_source": [
+            3,
+            4
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "I’m so grateful for our union",
+          "combined_source": [
+            3,
+            4
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "and our enduring partnership that began the first time I presented to you the gospel."
+        },
+        {
+          "verse": 6,
+          "text": "I pray with great faith for you, because I’m fully convinced that the One who began this glorious work {d} in you will faithfully continue the process of maturing you {e} and will put his finishing touches to it until the unveiling {f} of our Lord Jesus Christ!",
+          "footnotes": [
+            {
+              "marker": "d",
+              "text": "Or “good [worthwhile] work.” Paul uses language here that sounds similar to Gen. 1:2. When God created the heavens and the earth, he declared it to be “good.” And now with the new creation life within us, God again sees our growth in grace as something good."
+            },
+            {
+              "marker": "e",
+              "text": "Or “he will see to it that you remain faithful.”"
+            },
+            {
+              "marker": "f",
+              "text": "Literally “day of Christ.” This is the day of his unveiling, his appearing."
+            }
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "It’s no wonder I pray with such confidence, since you have a permanent place in my heart! {g} You have remained partners with me in the wonderful grace of God even though I’m here in chains for standing up for the truth of the gospel. {h}",
+          "footnotes": [
+            {
+              "marker": "g",
+              "text": "Or “since you have given me a permanent place in your hearts.”"
+            },
+            {
+              "marker": "h",
+              "text": "The Aramaic can be translated “the truth of God’s revelation.” The Greek can also be translated “for the defense and proof (a possible hendiadys) of the gospel.”"
+            }
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "Only God knows how much I dearly love you with the tender affection {i} of Jesus, the Anointed One.",
+          "footnotes": [
+            {
+              "marker": "i",
+              "text": "Or “mercies.”"
+            }
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "I continue to pray for your love to grow and increase beyond measure, bringing you into the rich revelation of spiritual insight {j} in all things.",
+          "footnotes": [
+            {
+              "marker": "j",
+              "text": "The Greek word for “insight” (aisthēsis) is a hapax legomenon in the New Testament and used numerous times in the Septuagint referring to practical understanding linked to life. It is a word that implies walking out the truth that insight reveals. It could also be translated “experience.” Many translations render it “discernment,” yet it is more than discerning something—it means to experience the reality of something and apply it to life."
+            }
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "This will enable you to choose {k} the most excellent way of all {l} —becoming pure and without offense until the unveiling of Christ. {m}",
+          "footnotes": [
+            {
+              "marker": "k",
+              "text": "The Greek word for “choose” (dokimazō) means “to examine, to discern, or approve after testing.” It comes from a root word that means “accepted” or “pleasing.” So discernment becomes the path to finding what God approves, not simply what God forbids. When love, revelation, and insight overflow into our discernment, we will always be looking for what is excellent and pleasing in God’s eyes. We choose what is best, not by law or rules, but by loving discernment."
+            },
+            {
+              "marker": "l",
+              "text": "As translated from the Greek. The Aramaic can be translated “choose those things that bring contentment.”"
+            },
+            {
+              "marker": "m",
+              "text": "Or “in preparation for the day of Christ.” This is the day of his unveiling at his appearing."
+            }
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "And you will be filled completely with the fruits of righteousness {n} that are found in Jesus, the Anointed One—bringing great praise and glory to God!",
+          "footnotes": [
+            {
+              "marker": "n",
+              "text": "Or “the fruit that is righteousness.”"
+            }
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "I want you to know, dear ones, {o} what has happened to me has not hindered, but helped my ministry of preaching the gospel, causing it to expand and spread to many people.",
+          "footnotes": [
+            {
+              "marker": "o",
+              "text": "Or “my brothers.”"
+            }
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "For now the elite Roman guards and government officials {p} overseeing my imprisonment have plainly recognized that I am here because of my love for the Anointed One.",
+          "footnotes": [
+            {
+              "marker": "p",
+              "text": "Or “Caesar’s court.”"
+            }
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "And what I’m going through has actually caused many believers {q} to become even more courageous in the Lord and to be bold and passionate to preach the Word of God, all because of my chains.",
+          "footnotes": [
+            {
+              "marker": "q",
+              "text": "Or “brothers.”"
+            }
+          ]
+        },
+        {
+          "verse": 15,
+          "text": "It’s true that there are some who preach Christ out of competition and controversy, for they are jealous over the way God has used me. Many others have purer motives —they preach with grace and love filling their hearts, {r}",
+          "footnotes": [
+            {
+              "marker": "r",
+              "text": "Or “with goodwill.” The translation has borrowed the term “love” from v. 16 and made it explicit here as the purest motive for preaching the gospel."
+            }
+          ]
+        },
+        {
+          "verse": 16,
+          "text": "because they know I’ve been destined for the purpose of defending the revelation of God. {s}",
+          "footnotes": [
+            {
+              "marker": "s",
+              "text": "As translated from the Aramaic. The Greek is “the gospel.” The implication from the Aramaic is that some of these preachers (v. 15) had been ordained by Paul."
+            }
+          ]
+        },
+        {
+          "verse": 17,
+          "text": "Those who preach Christ with ambition and competition are insincere—they just want to add to the hardships of my imprisonment."
+        },
+        {
+          "verse": 18,
+          "text": "Yet in spite of all of this I am overjoyed! For what does it matter as long as Christ is being preached? If they preach him with mixed motives or with genuine love, the message of Christ is still being preached. And I will continue to rejoice"
+        },
+        {
+          "verse": 19,
+          "text": "because I know that the lavish supply {t} of the Spirit of Jesus, the Anointed One, and your intercession for me will bring about my deliverance. {u}",
+          "footnotes": [
+            {
+              "marker": "t",
+              "text": "The Greek word for “supply” can also be translated “festive chorus.”"
+            },
+            {
+              "marker": "u",
+              "text": "A quotation from Job 13:16 (LXX)."
+            }
+          ]
+        },
+        {
+          "verse": 20,
+          "text": "No matter what, I will continue to hope and passionately cling {v} to Christ, so that he will be openly revealed through me before everyone’s eyes. {w} So I will not be ashamed! {x} In my life or in my death, Christ will be magnified in me.",
+          "footnotes": [
+            {
+              "marker": "v",
+              "text": "The Greek word is apokaradokia and can be translated “with the deepest and intense yearnings,” or “the concentrated desire that abandons all other interests with outstretched hands in expectation.” It is possible that Paul uses the words “passionately cling,” and “hope” as a hendiadys (i.e., “my hope-filled intense expectation”). Romans 8:19 is the only other place in the New Testament where apokaradokia is found."
+            },
+            {
+              "marker": "w",
+              "text": "Literally “with uncovered faces.” Some interpret it to mean without shame."
+            },
+            {
+              "marker": "x",
+              "text": "See also Rom. 1:16; 2 Cor. 10:8; 1 Peter 4:16; 1 John 2:28.",
+              "cross_references": [
+                {
+                  "book": "Romans",
+                  "chapter": 1,
+                  "verse_start": 16,
+                  "verse_end": 16
+                },
+                {
+                  "book": "2 Corinthians",
+                  "chapter": 10,
+                  "verse_start": 8,
+                  "verse_end": 8
+                },
+                {
+                  "book": "1 Peter",
+                  "chapter": 4,
+                  "verse_start": 16,
+                  "verse_end": 16
+                },
+                {
+                  "book": "1 John",
+                  "chapter": 2,
+                  "verse_start": 28,
+                  "verse_end": 28
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "verse": 21,
+          "text": "My true life is the Anointed One, and dying means gaining more of him."
+        },
+        {
+          "verse": 22,
+          "text": "So here’s my dilemma: Each day I live means bearing more fruit in my ministry;",
+          "combined_source": [
+            22,
+            23,
+            24
+          ]
+        },
+        {
+          "verse": 23,
+          "text": "yet I fervently long to be liberated from this body {y} and joined fully to Christ. That would suit me fine,",
+          "combined_source": [
+            22,
+            23,
+            24
+          ],
+          "footnotes": [
+            {
+              "marker": "y",
+              "text": "The Greek uses the word analyō, which means “to fold up a tent and depart.” Sailors used this word to say, “loose the ship and set sail.” And farmers used analyō to mean “to unyoke an oxen” (set it free)."
+            }
+          ]
+        },
+        {
+          "verse": 24,
+          "text": "but the greatest advantage to you would be that I remain alive. So you can see why I’m torn between the two —I don’t know which I prefer.",
+          "combined_source": [
+            22,
+            23,
+            24
+          ]
+        },
+        {
+          "verse": 25,
+          "text": "Yet deep in my heart I’m confident that I will be spared so I can add to your joy and further strengthen and mature your faith. {z}",
+          "footnotes": [
+            {
+              "marker": "z",
+              "text": "Or “that I could help with your pioneer advance and joy in faith.” Paul was excited to help them make new pioneer advances in their faith and joy."
+            }
+          ]
+        },
+        {
+          "verse": 26,
+          "text": "When I am freed to come to you, my deliverance will give you a reason to boast even more in Jesus Christ."
+        },
+        {
+          "verse": 27,
+          "text": "Whatever happens, keep living your lives based on the reality of the gospel of Christ, which reveals him to others. Then when I come to see you, or hear good reports of you, I’ll know that you stand united in one Spirit and one passion—celebrating together as conquerors {aa} in the faith of the gospel. {ab}",
+          "footnotes": [
+            {
+              "marker": "aa",
+              "text": "As translated literally from the Aramaic. The Greek states “striving side by side with one mind.”"
+            },
+            {
+              "marker": "ab",
+              "text": "Or “his revelation.”"
+            }
+          ]
+        },
+        {
+          "verse": 28,
+          "text": "And then you will never be shaken or intimidated by the opposition that rises up against us, for your courage will only prove as a sure sign from God of their coming destruction and that you have found a new life."
+        },
+        {
+          "verse": 29,
+          "text": "For God has graciously given you the privilege not only to believe in Christ, but also to suffer for him."
+        },
+        {
+          "verse": 30,
+          "text": "For you have been called by him to endure the conflict in the same way I have endured it—for you know I’m not giving up."
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Look at how much encouragement {a} you’ve found in your relationship with the Anointed One! You are filled to overflowing with his comforting love. You have experienced a deepening friendship with the Holy Spirit and have felt his tender affection and mercy. {b}",
+          "footnotes": [
+            {
+              "marker": "a",
+              "text": "The Greek word paraklesis can also mean “exhortation” or “comfort.”"
+            },
+            {
+              "marker": "b",
+              "text": "Or “sympathies.” The Aramaic can be translated “your heart flutters with his compassion.”"
+            }
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "So I’m asking you, my friends, that you be joined together in perfect unity—with one heart, one passion, and united in one love. Walk together {c} with one harmonious purpose and you will fill my heart with unbounded joy.",
+          "footnotes": [
+            {
+              "marker": "c",
+              "text": "Or “Be like-minded.”"
+            }
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "Be free from pride-filled opinions, for they will only harm your cherished unity. Don’t allow self-promotion to hide in your hearts, but in authentic humility put others first and view others as more important than yourselves."
+        },
+        {
+          "verse": 4,
+          "text": "Abandon every display of selfishness. Possess a greater concern for what matters to others instead of your own interests."
+        },
+        {
+          "verse": 5,
+          "text": "And consider the example that Jesus, the Anointed One, has set before us. Let his mindset become your motivation."
+        },
+        {
+          "verse": 6,
+          "text": "He existed in the form of God, yet he gave no thought to seizing equality with God as his supreme prize. {d}",
+          "footnotes": [
+            {
+              "marker": "d",
+              "text": "Or “as something to be exploited.”"
+            }
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "Instead he emptied himself of his outward glory by reducing himself to the form of a lowly servant. He became human!"
+        },
+        {
+          "verse": 8,
+          "text": "He humbled himself and became vulnerable, choosing to be revealed as a man and was obedient. {e} He was a perfect example, even in his death—a criminal’s death by crucifixion! {f}",
+          "footnotes": [
+            {
+              "marker": "e",
+              "text": "See also John 5:19.",
+              "cross_references": [
+                {
+                  "book": "John",
+                  "chapter": 5,
+                  "verse_start": 19,
+                  "verse_end": 19
+                }
+              ]
+            },
+            {
+              "marker": "f",
+              "text": "Notice the seven steps Christ took from the throne to the cross in vv. 7–8: (1) He emptied himself. (2) He became a servant. (3) He became human. (4) He humbled himself. (5) He became vulnerable and revealed as a Man. (6) He was obedient until his death. (7) He died a criminal’s death on the cross."
+            }
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "Because of that obedience, God exalted him and multiplied his greatness! He has now been given the greatest of all names!"
+        },
+        {
+          "verse": 10,
+          "text": "The authority of the name of Jesus causes every knee to bow in reverence! Everything and everyone will one day submit to this name—in the heavenly realm, in the earthly realm, and in the demonic realm. {g}",
+          "footnotes": [
+            {
+              "marker": "g",
+              "text": "Or “heaven, earth, and under the earth.”"
+            }
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "And every tongue will proclaim in every language: “Jesus Christ is Lord Yahweh,” {h} bringing glory and honor to God, his Father! {i}",
+          "footnotes": [
+            {
+              "marker": "h",
+              "text": "As translated from the Aramaic. The Greek text uses the word kurios, which is not the highest name for God. Yahweh (Hebrew) or Jehovah (Latin) is the highest name. Kurios is a title also used for false gods, land owners, merchants, and nobles. The Greek language has no equal to the sacred name (the tetragrammaton— YHWH), Yahweh. Only Hebrew and Aramaic have that equivalent. This verse makes it clear that the name given to Jesus at his exaltation was “Lord Jehovah” or “Lord Yahweh.” The Hebrew name for Jesus is Yeshua (lit. “God is a Saving-Cry”), which bears and reveals the name Yahweh. Jesus carries the name and reputation of his Father, Yahweh, within him. See John 17:11.",
+              "cross_references": [
+                {
+                  "book": "John",
+                  "chapter": 17,
+                  "verse_start": 11,
+                  "verse_end": 11
+                }
+              ]
+            },
+            {
+              "marker": "i",
+              "text": "Note the seven steps of exaltation that God gave Jesus after the cross: (1) God exalted him and multiplied his greatness. (2) He possess the greatest name of all. (3) His sovereign authority will cause every knee to bow. (4) God decreed that everyone in heaven will bow in worship of the God-Man. (5) God decreed that every demonic being will bow to the God-Man. (6) God decreed that every tongue will proclaim that Jesus Christ is Lord Yahweh! (7) God received the glory and honor of sharing his throne with the God-Man."
+            }
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "My beloved ones, just like you’ve always listened to everything I’ve taught you in the past, I’m asking you now to keep following my instructions as though I were right there with you. Now you must continue to make this new life fully manifested as you live {j} in the holy awe of God—which brings you trembling into his presence.",
+          "footnotes": [
+            {
+              "marker": "j",
+              "text": "The Aramaic can be translated “push through the service of your life” or “work the work of your life.”"
+            }
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "God will continually revitalize you, implanting within you the passion to do what pleases him. {k}",
+          "footnotes": [
+            {
+              "marker": "k",
+              "text": "The Aramaic can be translated “to accomplish the good things you desire to do.”"
+            }
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "Live a cheerful life, without complaining or division among yourselves."
+        },
+        {
+          "verse": 15,
+          "text": "For then you will be seen as innocent, {l} faultless, and pure children of God, even though you live in the midst of a brutal and perverse culture. {m} For you will appear among them as shining lights {n} in the universe,",
+          "footnotes": [
+            {
+              "marker": "l",
+              "text": "Or “mature.”"
+            },
+            {
+              "marker": "m",
+              "text": "See Deut. 32:5–6."
+            },
+            {
+              "marker": "n",
+              "text": "The Aramaic can be translated “the enlightened ones.”"
+            }
+          ]
+        },
+        {
+          "verse": 16,
+          "text": "offering them the words of eternal life. {o} I haven’t labored among you for nothing, for your lives are the fruit of my ministry and will be my glorious boast at the unveiling {p} of Christ!",
+          "footnotes": [
+            {
+              "marker": "o",
+              "text": "The Aramaic can be translated “you stand in the place of life to them.” The Greek text means “holding out to them the word of life.”"
+            },
+            {
+              "marker": "p",
+              "text": "Or “day.”"
+            }
+          ]
+        },
+        {
+          "verse": 17,
+          "text": "But I will rejoice even if my life is poured out like a liquid offering to God over your sacrificial and surrendered lives of faith. {q}",
+          "footnotes": [
+            {
+              "marker": "q",
+              "text": "The interpretation of this verse is difficult; it is speaking about Paul’s willingness to be a love offering for the Philippians if that’s what God desired. There is a powerful figure of speech contained in the Aramaic, literally translated as “though I imbibe the wine poured over the offering.” This is a metaphor of Paul shedding his blood one day because of his love for the Philippians. Indeed, Paul was later martyred for his faith."
+            }
+          ]
+        },
+        {
+          "verse": 18,
+          "text": "And so no matter what happens to me, you should rejoice in ecstatic celebration with me!"
+        },
+        {
+          "verse": 19,
+          "text": "Yet I’m trusting in our Lord Jesus that I may send Timothy to you soon, so I can be refreshed when I find out how you’re doing."
+        },
+        {
+          "verse": 20,
+          "text": "Timothy is like no other. He carries the same passion for your welfare that I carry in my heart."
+        },
+        {
+          "verse": 21,
+          "text": "For it seems as though everyone else is busy seeking what is best for themselves instead of the things that are most important to our Lord Jesus Christ."
+        },
+        {
+          "verse": 22,
+          "text": "You already know about his excellent reputation, since he has served alongside me as a loyal son in the work of ministry."
+        },
+        {
+          "verse": 23,
+          "text": "After I see what transpires with me he’s the one I will send to you to bless you."
+        },
+        {
+          "verse": 24,
+          "text": "And I’m trusting in my Lord to return to you in due time."
+        },
+        {
+          "verse": 25,
+          "text": "But for now, I feel a stirring in my heart to send Epaphroditus {r} back to you immediately. He’s a friend to me and a wonderful brother and fellow soldier who has worked with me as we serve as ministers of the gospel. And you sent him as your apostle to minister to me in my need.",
+          "footnotes": [
+            {
+              "marker": "r",
+              "text": "His name means “charming.”"
+            }
+          ]
+        },
+        {
+          "verse": 26,
+          "text": "But now he is grieved to know that you found out he had been sick, so he longs to return and comfort you in this."
+        },
+        {
+          "verse": 27,
+          "text": "It’s true he almost died, but God showed him mercy and healed him. And I’m so thankful to God for his healing, as I was spared from having the sorrow of losing him on top of all my other troubles!"
+        },
+        {
+          "verse": 28,
+          "text": "So you can see why I’m delighted to send him to you now. I know that you’re anxious to see him and rejoice in his healing, and it encourages me to know how happy you’ll be to have him back."
+        },
+        {
+          "verse": 29,
+          "text": "So warmly welcome him home in the Lord, {s} with joyous love, and esteem him highly, for people like him deserve it.",
+          "footnotes": [
+            {
+              "marker": "s",
+              "text": "Or “Lord Yahweh.”"
+            }
+          ]
+        },
+        {
+          "verse": 30,
+          "text": "Because of me, he put his life on the line, despising the danger, so that he could provide for me with what you couldn’t, since you were so far away. And he did it all because of his ministry for Christ."
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "My beloved ones, don’t ever limit your joy or fail to rejoice in the wonderful experience of knowing our Lord Jesus! I don’t mind repeating what I’ve already written you because it protects you—"
+        },
+        {
+          "verse": 2,
+          "text": "beware of those religious hypocrites {a} who teach that you should be circumcised to please God.",
+          "footnotes": [
+            {
+              "marker": "a",
+              "text": "Literally “dogs,” which is a figure of speech for religious hypocrites"
+            }
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "For we have already experienced “heart-circumcision,” and we worship God in the power and freedom of the Holy Spirit, not in laws and religious duties. We are those who boast in what Jesus Christ has done, and not in what we can accomplish in our own strength."
+        },
+        {
+          "verse": 4,
+          "text": "It’s true that I once relied on all that I had become. I had a reason to boast and impress people with my accomplishments—more than others—for my pedigree was impeccable."
+        },
+        {
+          "verse": 5,
+          "text": "I was born a true Hebrew of the heritage of Israel {b} as the son of a Jewish man from the tribe of Benjamin. {c} I was circumcised eight days after my birth and was raised in the strict tradition of Orthodox Judaism, living a separated {d} and devout life as a Pharisee.",
+          "footnotes": [
+            {
+              "marker": "b",
+              "text": "This meant that he could trace his family line all the way back to Abraham. There is also an inference that Paul spoke Hebrew-Aramaic as his native tongue and did not adopt Greek customs."
+            },
+            {
+              "marker": "c",
+              "text": "The tribe of Benjamin was honored as the tribe most loyal to the house of David. Benjamin means “son of my right hand.”"
+            },
+            {
+              "marker": "d",
+              "text": "A Pharisee was known as a “separated one,” who religiously followed all the laws of Judaism."
+            }
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "And concerning the righteousness of the Torah, {e} no one surpassed me; I was without a peer. Furthermore, as a fiery defender of the truth, I persecuted the messianic believers with religious zeal.",
+          "footnotes": [
+            {
+              "marker": "e",
+              "text": "Or “the written law.”"
+            }
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "Yet all of the accomplishments that I once took credit for, I’ve now forsaken them and I regard it all as nothing compared to the delight of experiencing Jesus Christ as my Lord!"
+        },
+        {
+          "verse": 8,
+          "text": "To truly know him meant letting go of everything from my past and throwing all my boasting on the garbage heap. It’s all like a pile of manure to me now, so that I may be enriched in the reality of knowing Jesus Christ and embrace him as Lord in all of his greatness."
+        },
+        {
+          "verse": 9,
+          "text": "My passion is to be consumed with him and not clinging to my own “righteousness” based in keeping the written Law. My “righteousness” will be his, based on the faithfulness of Jesus Christ—the very righteousness that comes from God."
+        },
+        {
+          "verse": 10,
+          "text": "And I continually long to know the wonders of Jesus more fully and to experience the overflowing power of his resurrection working in me. I will be one with him in his sufferings and I will be one with him in his death."
+        },
+        {
+          "verse": 11,
+          "text": "Only then will I be able to experience complete oneness with him in his resurrection from the realm of death."
+        },
+        {
+          "verse": 12,
+          "text": "I admit that I haven’t yet acquired the absolute fullness that I’m pursuing, but I run with passion into his abundance so that I may reach the purpose that Jesus Christ has called me to fulfill and wants me to discover."
+        },
+        {
+          "verse": 13,
+          "text": "I don’t depend on my own strength to accomplish this; {f} however I do have one compelling focus: I forget all of the past as I fasten my heart to the future instead.",
+          "footnotes": [
+            {
+              "marker": "f",
+              "text": "This phrase is translated from the Aramaic. The Greek text states “I, myself, have not taken possession of it.”"
+            }
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "I run straight for the divine invitation of reaching the heavenly goal and gaining the victory-prize through the anointing of Jesus."
+        },
+        {
+          "verse": 15,
+          "text": "So let all who are fully mature have this same passion, and if anyone is not yet gripped by these desires, {g} God will reveal it to them.",
+          "footnotes": [
+            {
+              "marker": "g",
+              "text": "The Aramaic can be translated “those who don’t run this way, God will reveal it to them.”"
+            }
+          ]
+        },
+        {
+          "verse": 16,
+          "text": "And let us all advance together to reach this victory-prize, following one path with one passion."
+        },
+        {
+          "verse": 17,
+          "text": "My beloved friends, imitate my walk with God and follow all those who walk according to the way of life we modeled before you."
+        },
+        {
+          "verse": 18,
+          "text": "For there are many who live by different standards. As I’ve warned you many times (I weep as I write these words), they are enemies of the cross of the Anointed One and"
+        },
+        {
+          "verse": 19,
+          "text": "doom awaits them. Their god has possessed them and made them mute. {h} Their boast is in their shameful lifestyles and their minds are in the dirt. {i}",
+          "footnotes": [
+            {
+              "marker": "h",
+              "text": "Translated from the Aramaic. The Greek states “their god is their belly,” which is meaningless to the average English speaker."
+            },
+            {
+              "marker": "i",
+              "text": "Translated from the Aramaic. It literally means “their conscience is in the ground.”"
+            }
+          ]
+        },
+        {
+          "verse": 20,
+          "text": "But we are a colony {j} of heaven on earth as we cling tightly to our life-giver, the Lord Jesus Christ,",
+          "footnotes": [
+            {
+              "marker": "j",
+              "text": "Or “citizenship,” or “commonwealth.”"
+            }
+          ]
+        },
+        {
+          "verse": 21,
+          "text": "who will transform our humble bodies {k} and transfigure us into the identical likeness of his glorified body. And using his matchless power, he continually subdues everything to himself. {l}",
+          "footnotes": [
+            {
+              "marker": "k",
+              "text": "Or “the body of our humility.”"
+            },
+            {
+              "marker": "l",
+              "text": "The Aramaic can be translated “everyone is in submission to him.”"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "My dear and precious friends, whom I deeply love, you have truly become my glorious joy and crown of reward. Now arise {a} in the fullness of your union with our Lord.",
+          "footnotes": [
+            {
+              "marker": "a",
+              "text": "The Aramaic word arise implies “resurrection.” The Greek is “stand fast.”"
+            }
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "And I plead with Euodia and Syntyche to settle their disagreement and be restored with one mind in our Lord. {b}",
+          "footnotes": [
+            {
+              "marker": "b",
+              "text": "In every church there is often found conflict in relationships. Paul seeks to encourage these two dear women to resolve all their disagreements. Their names give us a clue. Euodia comes from a word that means “a fair journey.” Syntyche comes from a word that can mean “an accident.” Along our fair journey we may collide with another, but God always has grace for restoration."
+            }
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "I would like my dear friend and burden-bearer {c} to help resolve this issue, for both women have diligently labored with me for the prize and helped in spreading the revelation of the gospel, {d} along with Clement {e} and the rest of my coworkers. All of their names are written in the Book of Life.",
+          "footnotes": [
+            {
+              "marker": "c",
+              "text": "Or “Syzygos,” possibly a name, however there is no record of anyone in classical or biblical Greek with this name. Some believe that Syzygos was one of the pastors of the church at Philippi."
+            },
+            {
+              "marker": "d",
+              "text": "The Aramaic can also be translated “God’s kingdom realm.”"
+            },
+            {
+              "marker": "e",
+              "text": "Clement was one of the men who led the church in Philippi. His name means “mild” or “merciful.”"
+            }
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "Be cheerful with joyous celebration in every season of life. Let joy overflow, for you are united with the Anointed One!"
+        },
+        {
+          "verse": 5,
+          "text": "Let gentleness {f} be seen in every relationship, for our Lord is ever near. {g}",
+          "footnotes": [
+            {
+              "marker": "f",
+              "text": "The Greek word means “fairness;” the Aramaic “humility.”"
+            },
+            {
+              "marker": "g",
+              "text": "Or “approaching.”"
+            }
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "Don’t be pulled in different directions or worried about a thing. Be saturated in prayer throughout each day, offering your faith-filled requests before God with overflowing gratitude. Tell him every detail of your life,"
+        },
+        {
+          "verse": 7,
+          "text": "then God’s wonderful peace that transcends human understanding, will make the answers known to you through Jesus Christ. {h}",
+          "footnotes": [
+            {
+              "marker": "h",
+              "text": "As translated from the Aramaic. The Greek is “guard your heart and your mind in Christ Jesus.”"
+            }
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "So keep your thoughts continually fixed on all that is authentic and real, honorable and admirable, beautiful and respectful, pure and holy, merciful and kind. And fasten your thoughts on every glorious work of God, praising him always."
+        },
+        {
+          "verse": 9,
+          "text": "Follow the example of all that we have imparted to you and the God of peace will be with you in all things."
+        },
+        {
+          "verse": 10,
+          "text": "My heart overflows with joy when I think of how you showed your love to me by your financial support of my ministry. For even though you have so little, you still continue to help me at every opportunity."
+        },
+        {
+          "verse": 11,
+          "text": "I’m not telling you this because I’m in need, for I have learned to be satisfied in any circumstance. {j}",
+          "footnotes": [
+            {
+              "marker": "j",
+              "text": "Or “to give up everything I have.”"
+            }
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "I know what it means to lack, {k} and I know what it means to experience overwhelming abundance. For I’m trained in the secret of overcoming all things, whether in fullness or in hunger.",
+          "combined_source": [
+            12,
+            13
+          ],
+          "footnotes": [
+            {
+              "marker": "k",
+              "text": "Or “be humbled.”"
+            }
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "And I find that the strength of Christ’s explosive power infuses me to conquer every difficulty. {l}",
+          "combined_source": [
+            12,
+            13
+          ],
+          "footnotes": [
+            {
+              "marker": "l",
+              "text": "Or “to master all things.”"
+            }
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "You’ve so graciously provided for my essential needs during this season of difficulty."
+        },
+        {
+          "verse": 15,
+          "text": "For I want you to know that the Philippian church was the only church that supported me in the beginning as I went out to preach the gospel. You were the only church that sowed into me financially, {m}",
+          "footnotes": [
+            {
+              "marker": "m",
+              "text": "The Aramaic can be translated “accounts of planting and giving.”"
+            }
+          ]
+        },
+        {
+          "verse": 16,
+          "text": "and when I was in Thessalonica, you supported me for well over a year. {n}",
+          "footnotes": [
+            {
+              "marker": "n",
+              "text": "As translated from the Aramaic. The Greek means “twice you sent gifts.”"
+            }
+          ]
+        },
+        {
+          "verse": 17,
+          "text": "I mention this not because I’m requesting a gift, but so that the fruit of your generosity may bring you an abundant reward."
+        },
+        {
+          "verse": 18,
+          "text": "I now have all I need—more than enough—I’m abundantly satisfied! For I’ve received the gift you sent by Epaphroditus and viewed it as a sweet sacrifice, perfumed with the fragrance of your faithfulness, which is so pleasing to God!"
+        },
+        {
+          "verse": 19,
+          "text": "I am convinced that my God will fully satisfy every need you have, for I have seen the abundant riches of glory revealed to me through the Anointed One, Jesus Christ!"
+        },
+        {
+          "verse": 20,
+          "text": "And God our Father will receive all the glory and the honor throughout the eternity of eternities! Amen!"
+        },
+        {
+          "verse": 21,
+          "text": "Give my warm greetings to all the believers in the Anointed One, Jesus."
+        },
+        {
+          "verse": 22,
+          "text": "All the brothers and sisters in Christ that are here with me send their loving greetings, especially the converts from Caesar’s household."
+        },
+        {
+          "verse": 23,
+          "text": "May every one of you overflow with the grace and favor of our Lord Jesus Christ! {o} Love in Christ, Paul",
+          "footnotes": [
+            {
+              "marker": "o",
+              "text": "As translated from the Aramaic. The Greek states “with your spirit.”"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

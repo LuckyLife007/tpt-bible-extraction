@@ -1,0 +1,714 @@
+{
+  "book": "2 Thessalonians",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "From Paul, Silas, {a} and Timothy. {b} We send our greetings to you, the Thessalonian congregation {c} of believers, which is in God our Father and the Lord Jesus Christ. {d}",
+          "footnotes": [
+            {
+              "marker": "a",
+              "text": "See the first footnote on 1 Thess. 1:1.",
+              "cross_references": [
+                {
+                  "book": "1 Thessalonians",
+                  "chapter": 1,
+                  "verse_start": 1,
+                  "verse_end": 1
+                }
+              ]
+            },
+            {
+              "marker": "b",
+              "text": "See the second footnote on 1 Thess. 1:1.",
+              "cross_references": [
+                {
+                  "book": "1 Thessalonians",
+                  "chapter": 1,
+                  "verse_start": 1,
+                  "verse_end": 1
+                }
+              ]
+            },
+            {
+              "marker": "c",
+              "text": "See the third footnote on 1 Thess. 1:1.",
+              "cross_references": [
+                {
+                  "book": "1 Thessalonians",
+                  "chapter": 1,
+                  "verse_start": 1,
+                  "verse_end": 1
+                }
+              ]
+            },
+            {
+              "marker": "d",
+              "text": "The church is both “in” God the Father and “in” Jesus Christ. The Trinity is making room for the bride."
+            }
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "May God’s delightful grace {e} and peace rest upon you. {f}",
+          "footnotes": [
+            {
+              "marker": "e",
+              "text": "The usage of charis (grace) in ancient classical Greek carries the connotation of something that awakens joy and pleasure. The Greek concept of grace imparts delight, often attached to a strong emotional element. Paul uses the term grace as a joyous delight that rests upon the people of God. See Thomas F. Torrance, The Doctrine of Grace in the Apostolic Fathers, 1–2."
+            },
+            {
+              "marker": "f",
+              "text": "Some manuscripts add “from God our Father and the Lord Jesus Christ.”"
+            }
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "We feel a personal responsibility to continually be thanking God for you, our spiritual family, {g} every time we pray. And we have every reason to do so because your faith is growing marvelously beyond measure. The unselfish love each of you share for one another is increasing and overflowing!",
+          "footnotes": [
+            {
+              "marker": "g",
+              "text": "Or “brothers and sisters.”"
+            }
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "We point to you as an example of unwavering faith {h} for all the churches of God. We boast about how you continue to demonstrate unflinching endurance {i} through all the persecutions and painful trials you are experiencing. {j}",
+          "footnotes": [
+            {
+              "marker": "h",
+              "text": "Or “perseverance and faith,” a likely hendiadys."
+            },
+            {
+              "marker": "i",
+              "text": "The Aramaic can be translated “your hope,” making it their faith, their love, and their hope that Paul lauds them for."
+            },
+            {
+              "marker": "j",
+              "text": "No matter what difficulty we may pass through, a growing faith in Christ, an increasing love for others, and unwavering hope will be the keys to coming through it victoriously."
+            }
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "All of this proves that God’s judgment is always perfect and is intended to make you worthy of inheriting the kingdom of God, which is why you are going through these troubles."
+        },
+        {
+          "verse": 6,
+          "text": "It is right and just for God to trouble your troublers"
+        },
+        {
+          "verse": 7,
+          "text": "and give rest to the troubled, both to you and to us, at the unveiling {k} of the Lord Jesus from heaven with his messengers of power",
+          "footnotes": [
+            {
+              "marker": "k",
+              "text": "Or “uncovering” or “revelation.”"
+            }
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "within a flame of fire. He will bring perfect and full justice to those who don’t know God {l} and on those who refuse to embrace the gospel of our Lord Jesus.",
+          "footnotes": [
+            {
+              "marker": "l",
+              "text": "Or “inflicting vengeance upon those who do not know God.” See Ps. 79:6; Isa. 66:15; Jer. 10:25.",
+              "cross_references": [
+                {
+                  "book": "Psalms",
+                  "chapter": 79,
+                  "verse_start": 6,
+                  "verse_end": 6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "They will suffer the penalty of eternal destruction, banished from the Lord’s presence {m} and from the manifestation of his glorious power. {n}",
+          "footnotes": [
+            {
+              "marker": "m",
+              "text": "Or “face.”"
+            },
+            {
+              "marker": "n",
+              "text": "See Isa. 2:10, 19, 21."
+            }
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "This will happen on that day when he outwardly adorns his holy ones with glory, {o} and they will be marveled at among all believers— including you, since in fact, you believed our message. {p}",
+          "footnotes": [
+            {
+              "marker": "o",
+              "text": "Or “is glorified in his holy ones.”"
+            },
+            {
+              "marker": "p",
+              "text": "Or “testimony.”"
+            }
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "With this in mind, we constantly pray that our God will empower you to live worthy of all that he has invited you to experience. {q} And we pray that by his power all the pleasures of goodness and all works inspired by faith would fill you completely. {r}",
+          "footnotes": [
+            {
+              "marker": "q",
+              "text": "Or “that our God would make you worthy [or considered worthy] of your calling.”"
+            },
+            {
+              "marker": "r",
+              "text": "This sentence is translated from the Aramaic. The Greek is “By his power he will fulfill your every resolve for goodness and works of faith.”"
+            }
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "By doing this the name of our Lord Jesus will be glorified in you, and you will be glorified in him, by the marvelous grace of our God and the Lord Jesus Christ. {s}",
+          "footnotes": [
+            {
+              "marker": "s",
+              "text": "Or “our God and Lord, Jesus Christ.”"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Now, regarding the coming {a} of our Lord Jesus Christ and our gathering together to him, {b} we plead with you, beloved friends,",
+          "footnotes": [
+            {
+              "marker": "a",
+              "text": "Or “presence.”"
+            },
+            {
+              "marker": "b",
+              "text": "The noun form of the Greek word for “gathering together” (episunagoge) is found twice in the New Testament, here and in Heb. 10:25. It is used as a verb (episunago) in Matt. 23:37; 24:31.",
+              "cross_references": [
+                {
+                  "book": "Hebrews",
+                  "chapter": 10,
+                  "verse_start": 25,
+                  "verse_end": 25
+                },
+                {
+                  "book": "Matthew",
+                  "chapter": 23,
+                  "verse_start": 37,
+                  "verse_end": 37
+                },
+                {
+                  "book": "Matthew",
+                  "chapter": 24,
+                  "verse_start": 31,
+                  "verse_end": 31
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "verse": 2,
+          "text": "not to be easily confused or disturbed in your minds by any kind of spirit, rumor, or letter allegedly from us, claiming that the day of the Lord {c} has already come.",
+          "footnotes": [
+            {
+              "marker": "c",
+              "text": "This is a common term that describes the day of the Lord’s judgment. (See Jer. 30:7; Joel 1:15; 2:1–2; Amos 5:18; Zech. 1:14–18.)"
+            }
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "Don’t let anyone deceive you in any way. Before that day comes the rebellion {d} must occur and the “outlaw” {e} —the destructive son—will be revealed in his true light.",
+          "footnotes": [
+            {
+              "marker": "d",
+              "text": "Or “apostasy” or “abandonment” (falling away)."
+            },
+            {
+              "marker": "e",
+              "text": "A few manuscripts have “the man who missed the mark” (i.e., Adam), while others have “the person owned by [associated with] lawlessness.”"
+            }
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "He is the opposing counterpart who exalts himself over everything that is called “God” or is worshiped {f} and who sits enthroned in God’s temple {g} and makes himself out to be a god. {h}",
+          "footnotes": [
+            {
+              "marker": "f",
+              "text": "See Dan. 11:36."
+            },
+            {
+              "marker": "g",
+              "text": "Some see this prophecy fulfilled in AD 70 during the Roman war, when foreigners came into the temple and desecrated it and declared themselves the true rulers of the Jewish people. Roman emperors were considered to be gods. But the one who sits in God’s temple, which was not made with hands, is the sin of man, a sinful nature that is traced back to Adam."
+            },
+            {
+              "marker": "h",
+              "text": "See also Ezek. 28:2."
+            }
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "Don’t you remember that when I was with you I went over all these things?"
+        },
+        {
+          "verse": 6,
+          "text": "Now you are aware of the ruling power {i} so that he may be fully revealed when his time comes.",
+          "footnotes": [
+            {
+              "marker": "i",
+              "text": "An intransitive verb meaning “to rule” or “to hold sway” or “to possess.” The Aramaic likewise is “Now you know that which controls.” The neuter form of the Greek participle suggests a principle, not a person, which could be referring to the mystery of lawlessness in human hearts (v. 7). However, some see “it” as the god of this world (Satan) or the Roman Empire, which ruled the world in the days of Paul’s writings."
+            }
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "For the mystery of lawlessness {j} is already active, but the one who prevails {k} will do so until he is separated from out of the midst. {l}",
+          "footnotes": [
+            {
+              "marker": "j",
+              "text": "Or “the secret power of lawlessness/wickedness.”"
+            },
+            {
+              "marker": "k",
+              "text": "Or “restrains.”"
+            },
+            {
+              "marker": "l",
+              "text": "Or “until he is removed.”"
+            }
+          ]
+        },
+        {
+          "verse": 8,
+          "text": "Then the “outlaw” will be openly revealed, and the Lord will overthrow him by the breath of his mouth {m} and bring him to an end {n} by the dazzling manifestation of his presence. {o}",
+          "footnotes": [
+            {
+              "marker": "m",
+              "text": "Figuratively, this is the word spoken from his mouth, the Word of God. See also Rev. 19:15, 21.",
+              "cross_references": [
+                {
+                  "book": "Revelation",
+                  "chapter": 19,
+                  "verse_start": 15,
+                  "verse_end": 15
+                },
+                {
+                  "book": "Revelation",
+                  "chapter": 19,
+                  "verse_start": 21,
+                  "verse_end": 21
+                }
+              ]
+            },
+            {
+              "marker": "n",
+              "text": "Or “deactivate.”"
+            },
+            {
+              "marker": "o",
+              "text": "Or “coming.”"
+            }
+          ]
+        },
+        {
+          "verse": 9,
+          "text": "The presence {p} of the “outlaw” is apparent by the activity of Satan, who uses all kinds of counterfeit miracles, signs, spurious wonders,",
+          "footnotes": [
+            {
+              "marker": "p",
+              "text": "Or “coming.”"
+            }
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "and every form of evil deception in order to deceive those who are perishing because they rejected the love of the truth {q} that would lead them to being saved.",
+          "footnotes": [
+            {
+              "marker": "q",
+              "text": "Or “did not welcome the love for the truth.”"
+            }
+          ]
+        },
+        {
+          "verse": 11,
+          "text": "Because of this, God sends them a powerful delusion {r} that leads them to believe what is false.",
+          "footnotes": [
+            {
+              "marker": "r",
+              "text": "Or “a [power] working of error.” The Aramaic can be translated “God will dispatch to them servants of deception.”"
+            }
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "So then all who found their pleasure in unrighteousness and did not believe the truth will be judged."
+        },
+        {
+          "verse": 13,
+          "text": "We always have to thank God for you, brothers and sisters, for you are dearly loved by the Lord. He proved it by choosing you from the beginning for salvation {s} through the Spirit, who set you apart for holiness, and through your belief in the truth. {t}",
+          "footnotes": [
+            {
+              "marker": "s",
+              "text": "Or “He has chosen you as firstfruits [in the harvest] for salvation.”"
+            },
+            {
+              "marker": "t",
+              "text": "Or “by sanctifying your spirits and convincing you of his truth.”"
+            }
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "To this end he handpicked you for salvation through the gospel so that you would have {u} the glory of our Lord Jesus Christ. {v}",
+          "footnotes": [
+            {
+              "marker": "u",
+              "text": "Or “share in” or “possess.” This is the Greek word peripoiēsis, which means “an encompassing,” “a surrounding” or “encircling.” Believers are brought within the perimeter of the glory of God through Jesus Christ. There is nothing in the context to imply it is a future event, but rather a present enjoyment and participation in the glory of the Lord Jesus Christ (John 17:10, 22).",
+              "cross_references": [
+                {
+                  "book": "John",
+                  "chapter": 17,
+                  "verse_start": 10,
+                  "verse_end": 10
+                },
+                {
+                  "book": "John",
+                  "chapter": 17,
+                  "verse_start": 22,
+                  "verse_end": 22
+                }
+              ]
+            },
+            {
+              "marker": "v",
+              "text": "These two verses (13–14) contain some of the most wonderful truths of the New Testament. Read them over again slowly and think about all that God the Father, God the Son, and God the Spirit have done for us (e.g., his eternal love, the drawing work of the Holy Spirit, sanctification or being set apart for holiness, faith in Jesus, and much more). Paul states in v. 14 that the purpose of our salvation is more than being set free from guilt; it is so that we would share in and possess the glory of Christ (John 17:10, 22).",
+              "cross_references": [
+                {
+                  "book": "John",
+                  "chapter": 17,
+                  "verse_start": 10,
+                  "verse_end": 10
+                },
+                {
+                  "book": "John",
+                  "chapter": 17,
+                  "verse_start": 22,
+                  "verse_end": 22
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "verse": 15,
+          "text": "So then, dear family, stand firm with a masterful grip of the teachings {w} we gave you, either by word of mouth or by our letter. {x}",
+          "footnotes": [
+            {
+              "marker": "w",
+              "text": "Or “traditions.”"
+            },
+            {
+              "marker": "x",
+              "text": "The “letter” Paul refers to is likely 1 Thessalonians."
+            }
+          ]
+        },
+        {
+          "verse": 16,
+          "text": "Now may the Lord Jesus Christ and our Father God, who loved us and in his wonderful grace gave us eternal comfort and a beautiful hope that cannot fail,"
+        },
+        {
+          "verse": 17,
+          "text": "encourage your hearts and inspire you with strength to always do and speak what is good and beautiful in his eyes. {y}",
+          "footnotes": [
+            {
+              "marker": "y",
+              "text": "The Aramaic can be translated “He will comfort your hearts and will stand by all [your] words and by all (your) beautiful deeds.” Another possible Aramaic translation of this verse is “He will make your hearts a well of prophecy and he will stand you in every word and in every beautiful deed.”"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Finally, dear brothers and sisters, pray for us that the Lord’s message will continue to spread rapidly and its glory be recognized everywhere, just as it was with you."
+        },
+        {
+          "verse": 2,
+          "text": "And pray that God will rescue us from wicked {a} and evil people, for not everyone believes the message.",
+          "footnotes": [
+            {
+              "marker": "a",
+              "text": "The Greek word atopos can also be translated “weird,” “irrational,” “absurd,” “disgusting.”"
+            }
+          ]
+        },
+        {
+          "verse": 3,
+          "text": "But the Lord Yahweh {b} is always faithful {c} to place you on a firm foundation and guard you from the Evil One. {d}",
+          "footnotes": [
+            {
+              "marker": "b",
+              "text": "As translated from the Aramaic."
+            },
+            {
+              "marker": "c",
+              "text": "Twelve times in the Bible the Lord is described as faithful. (See Deut. 7:9; Isa. 49:7; 1 Cor. 1:9; 10:13; 2 Thess. 3:3; Heb. 10:23; 11:11; 1 Peter 4:19; 1 John 1:9; Rev. 1:5; 3:14; 19:11.)",
+              "cross_references": [
+                {
+                  "book": "1 Corinthians",
+                  "chapter": 1,
+                  "verse_start": 9,
+                  "verse_end": 9
+                },
+                {
+                  "book": "1 Corinthians",
+                  "chapter": 10,
+                  "verse_start": 13,
+                  "verse_end": 13
+                },
+                {
+                  "book": "2 Thessalonians",
+                  "chapter": 3,
+                  "verse_start": 3,
+                  "verse_end": 3
+                },
+                {
+                  "book": "Hebrews",
+                  "chapter": 10,
+                  "verse_start": 23,
+                  "verse_end": 23
+                },
+                {
+                  "book": "Hebrews",
+                  "chapter": 11,
+                  "verse_start": 11,
+                  "verse_end": 11
+                },
+                {
+                  "book": "1 Peter",
+                  "chapter": 4,
+                  "verse_start": 19,
+                  "verse_end": 19
+                },
+                {
+                  "book": "1 John",
+                  "chapter": 1,
+                  "verse_start": 9,
+                  "verse_end": 9
+                },
+                {
+                  "book": "Revelation",
+                  "chapter": 1,
+                  "verse_start": 5,
+                  "verse_end": 5
+                },
+                {
+                  "book": "Revelation",
+                  "chapter": 3,
+                  "verse_start": 14,
+                  "verse_end": 14
+                },
+                {
+                  "book": "Revelation",
+                  "chapter": 19,
+                  "verse_start": 11,
+                  "verse_end": 11
+                }
+              ]
+            },
+            {
+              "marker": "d",
+              "text": "Or “guard you from evil” (the unproductive and sinful ways of the past)."
+            }
+          ]
+        },
+        {
+          "verse": 4,
+          "text": "We have complete confidence in the Lord concerning you {e} and we are sure that you are doing and will continue to do what we have told you.",
+          "footnotes": [
+            {
+              "marker": "e",
+              "text": "Or “The Lord gives us confidence in you.”"
+            }
+          ]
+        },
+        {
+          "verse": 5,
+          "text": "Now may the Lord move your hearts into a greater understanding of God’s pure love for you and into Christ’s steadfast endurance. {f}",
+          "footnotes": [
+            {
+              "marker": "f",
+              "text": "Or “the faithful endurance of [all things] for Christ.” Either translation is grammatically possible as a subjective genitive or an objective genitive. The Aramaic can be translated “the hope of the Messiah.”"
+            }
+          ]
+        },
+        {
+          "verse": 6,
+          "text": "Beloved brothers and sisters, we instruct you, in the name of our Lord Jesus Christ, to stay away from believers who are unruly {g} and who stray from all that we have taught you. {h}",
+          "footnotes": [
+            {
+              "marker": "g",
+              "text": "Or “undisciplined” or “lazy” or “not in battle order” or “not in your duty station.” There is an implication that there were believers who refused to work for a living. Paul is implying that the church should not financially support those who refuse to work. Personal responsibility is a common theme in Paul’s teachings."
+            },
+            {
+              "marker": "h",
+              "text": "Or “don’t live according to the traditions they received from us.”"
+            }
+          ]
+        },
+        {
+          "verse": 7,
+          "text": "For you know very well that you should order your lives after our example, because we were not undisciplined when we were with you."
+        },
+        {
+          "verse": 8,
+          "text": "We didn’t sponge off of you, but we worked hard night and day to provide our own food and lodging and not be a burden to any of you."
+        },
+        {
+          "verse": 9,
+          "text": "It wasn’t because we don’t have the right to be supported, {i} but we wanted to provide you an example to follow.",
+          "footnotes": [
+            {
+              "marker": "i",
+              "text": "Those who preach the gospel have the right to be supported financially and deserve their wages (1 Cor. 9:6– 18). However, it seems that Paul’s custom was to earn his own way when he went into a city for the first time to show the truth of the gospel without mixed motives. His ministry in Thessalonica was somewhat of an anomaly. Because there were believers who were lazy and not working for a living, Paul gave up his right to have financial support from them and chose to work “night and day” (v. 8) to be an example to them.",
+              "cross_references": [
+                {
+                  "book": "1 Corinthians",
+                  "chapter": 9,
+                  "verse_start": 6,
+                  "verse_end": 18
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "verse": 10,
+          "text": "For when we were with you we instructed you with these words: “Anyone who does not want to work for a living should go hungry.”"
+        },
+        {
+          "verse": 11,
+          "text": "Now, we hear rumors that some of you are being lazy {j} and neglecting to work—that these people are not busy but busybodies!",
+          "footnotes": [
+            {
+              "marker": "j",
+              "text": "Or “not showing up for the war” (battle)."
+            }
+          ]
+        },
+        {
+          "verse": 12,
+          "text": "So with the authority of the Lord Jesus Christ, we order them to go back to work in an orderly fashion and exhort them to earn their own living. {k}",
+          "footnotes": [
+            {
+              "marker": "k",
+              "text": "Or “eat their own bread.”"
+            }
+          ]
+        },
+        {
+          "verse": 13,
+          "text": "Brothers and sisters, don’t ever grow weary in doing what is right. {l}",
+          "footnotes": [
+            {
+              "marker": "l",
+              "text": "Doing right in this context is not growing tired of honest work. The Hebrew word for “work” (avodah) is the same Hebrew word (a homonym) for worship. Our work can be a form of worship. Our lives are to be a seamless expression of offering to God all of our activities as things we do with all our might for the glory of God."
+            }
+          ]
+        },
+        {
+          "verse": 14,
+          "text": "Take special note of anyone who won’t obey what we have written and stay away from them, so that they would be ashamed and get turned around. {m}",
+          "footnotes": [
+            {
+              "marker": "m",
+              "text": "The passive Greek verb entropē means “to be turned” (around); that is, to be changed. This was not punishment but an attempt to draw wayward individuals into repentance and bring them back into restored fellowship with the church."
+            }
+          ]
+        },
+        {
+          "verse": 15,
+          "text": "Yet don’t regard them as enemies, but caution them as fellow believers."
+        },
+        {
+          "verse": 16,
+          "text": "Now, may the Lord himself, the Lord of peace, pour into you his peace in every circumstance and in every possible way. The Lord’s tangible presence be with you all. {n}",
+          "footnotes": [
+            {
+              "marker": "n",
+              "text": "Paul is longing for the guidance, influence, and power that comes from God’s presence to be real to them."
+            }
+          ]
+        },
+        {
+          "verse": 17,
+          "text": "So now, in my own handwriting, I add these words: Loving greetings to each of you.",
+          "combined_source": [
+            17,
+            18
+          ]
+        },
+        {
+          "verse": 18,
+          "text": "And may the grace of our Lord Jesus Christ be with you all. Paul The above is my signature and the token of authenticity in every letter I write. {o}",
+          "combined_source": [
+            17,
+            18
+          ],
+          "footnotes": [
+            {
+              "marker": "o",
+              "text": "See 1 Cor. 16:21; Gal. 6:11; Col. 4:18; Philem. 19 The Aramaic ends with “The end of Paul’s second letter to the Thessalonians, written from Laodicea [Pisidian].”",
+              "cross_references": [
+                {
+                  "book": "1 Corinthians",
+                  "chapter": 16,
+                  "verse_start": 21,
+                  "verse_end": 21
+                },
+                {
+                  "book": "Galatians",
+                  "chapter": 6,
+                  "verse_start": 11,
+                  "verse_end": 11
+                },
+                {
+                  "book": "Colossians",
+                  "chapter": 4,
+                  "verse_start": 18,
+                  "verse_end": 18
+                },
+                {
+                  "book": "Philemon",
+                  "chapter": 1,
+                  "verse_start": 19,
+                  "verse_end": 19
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
