@@ -24,28 +24,37 @@ A project to extract **The Passion Translation (TPT)** Bible from its source PDF
 
 ## Adding a new book
 
-Copy any existing stub in `scripts/` and update 3 values:
+Copy any existing stub in `scripts/` and update its values (page ranges are 0-indexed; `END_PAGE` is exclusive — the first page of the next book's intro):
 
 ```python
 BOOK_NAME   = "1 Timothy"
-START_PAGE  = 2404   # 0-indexed
-END_PAGE    = 2422   # 0-indexed exclusive
+START_PAGE  = 2402   # scripture-start page (after the "AT A GLANCE" intro pages)
+END_PAGE    = 2430   # exclusive — next book's intro page
+OUTPUT_PATH = os.path.join(_ROOT, "TPT", "TPT_1_Timothy.json")  # underscore for numbered books
 ```
 
-All extraction logic is in `scripts/tpt_extractor_core.py` — never edit the stubs for logic changes.
+All extraction logic is in `scripts/tpt_extractor_core.py` — never edit the stubs for logic changes. To find a book's page range, scan the PDF for its title heading; `START_PAGE` is the page where verse 1 appears (not the introduction pages).
 
 ## Current status
 
-6 books extracted and committed (March 2026):
+10 books extracted (6 committed March 2026; 1 & 2 Timothy, Titus, Philemon added June 2026) — 906 verses total:
 
 | Book | Chapters | Verses | Script |
 |------|----------|--------|--------|
+| Galatians | 6 | 149 | `scripts/extract_galatians.py` |
+| Ephesians | 6 | 155 | `scripts/extract_ephesians.py` |
 | Philippians | 4 | 104 | `scripts/extract_philippians.py` |
 | Colossians | 4 | 95 | `scripts/extract_colossians.py` |
 | 1 Thessalonians | 5 | 89 | `scripts/extract_1thessalonians.py` |
 | 2 Thessalonians | 3 | 47 | `scripts/extract_2thessalonians.py` |
-| Ephesians | 6 | 155 | `scripts/extract_ephesians.py` |
-| Galatians | 6 | 149 | `scripts/extract_galatians.py` |
+| 1 Timothy | 6 | 113 | `scripts/extract_1timothy.py` |
+| 2 Timothy | 4 | 83 | `scripts/extract_2timothy.py` |
+| Titus | 3 | 46 | `scripts/extract_titus.py` |
+| Philemon | 1 | 25 | `scripts/extract_philemon.py` |
+
+Output files use the underscore naming convention for numbered books (e.g. `TPT/TPT_1_Timothy.json`).
+
+The core engine supports single-chapter books (e.g. Philemon): it defaults to chapter 1 when no chapter number is present and resolves verse-only footnote references.
 
 See `tpt-progress.md` for the full extraction log, split decisions, and next steps.
 

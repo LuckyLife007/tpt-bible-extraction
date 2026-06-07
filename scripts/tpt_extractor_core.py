@@ -456,6 +456,21 @@ def parse_fn_ref(text):
     return None, None
 
 
+def parse_fn_ref_verse_only(text):
+    """
+    For single-chapter books (e.g. Philemon) footnote bodies are prefixed with
+    a verse-only reference ('9' or '1–2') instead of 'chapter:verse'. Treats the
+    chapter as 1. Returns (1, start_verse) or (None, None).
+    """
+    m = re.match(r'^(\d+)[–—-]\d+$', text)
+    if m:
+        return 1, int(m.group(1))
+    m = re.match(r'^(\d+)$', text)
+    if m:
+        return 1, int(m.group(1))
+    return None, None
+
+
 # ---------------------------------------------------------------------------
 # Text builder and post-processor
 # ---------------------------------------------------------------------------
@@ -603,6 +618,11 @@ def extract_book(book_name, start_page, end_page, pdf_path, output_path):
             current_chapter = tdata
 
         elif ttype == 'VERSE_NUM':
+            # Single-chapter books (e.g. Philemon) have no printed chapter
+            # number, so no CHAPTER_NUM token is ever emitted to set the
+            # chapter. Default to chapter 1 on the first verse encountered.
+            if current_chapter is None:
+                current_chapter = 1
             start_v, end_v = tdata
             flush_verse()
             if pre_verse_parts and start_v > 1:
@@ -639,6 +659,10 @@ def extract_book(book_name, start_page, end_page, pdf_path, output_path):
     # fn_map: (chapter, verse, marker) → {'text': str, 'xrefs': list}
     # -----------------------------------------------------------------------
     fn_map = {}
+
+    # Single-chapter books emit no CHAPTER_NUM token; their footnote bodies use
+    # verse-only reference prefixes, so resolve those against chapter 1.
+    is_single_chapter = not any(t[0] == 'CHAPTER_NUM' for t in all_verse_tokens)
 
     cur_fn_marker  = None
     cur_fn_chapter = None
@@ -695,6 +719,8 @@ def extract_book(book_name, start_page, end_page, pdf_path, output_path):
                 flush_xref_span()
             if not seen_ref:
                 ch, vs = parse_fn_ref(text)
+                if ch is None and is_single_chapter:
+                    ch, vs = parse_fn_ref_verse_only(text)
                 if ch is not None:
                     cur_fn_chapter = ch
                     cur_fn_verse   = vs
