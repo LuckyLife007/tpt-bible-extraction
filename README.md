@@ -37,10 +37,11 @@ All extraction logic is in `scripts/tpt_extractor_core.py` — never edit the st
 
 ## Current status
 
-10 books extracted (6 committed March 2026; 1 & 2 Timothy, Titus, Philemon added June 2026) — 906 verses total:
+20 of 27 New Testament books extracted (6 committed March 2026; 1 & 2 Timothy, Titus, Philemon, Hebrews, James, 1–2 Peter, 1–3 John, Jude, Revelation, Matthew added June–July 2026) — 3116 verses total. Still to do: Mark, Luke, John, Acts, Romans, 1–2 Corinthians (7 NT books), plus the OT selections (Psalms, Proverbs, Song of Solomon).
 
 | Book | Chapters | Verses | Script |
 |------|----------|--------|--------|
+| Matthew | 28 | 1070 | `scripts/extract_matthew.py` |
 | Galatians | 6 | 149 | `scripts/extract_galatians.py` |
 | Ephesians | 6 | 155 | `scripts/extract_ephesians.py` |
 | Philippians | 4 | 104 | `scripts/extract_philippians.py` |
@@ -51,6 +52,15 @@ All extraction logic is in `scripts/tpt_extractor_core.py` — never edit the st
 | 2 Timothy | 4 | 83 | `scripts/extract_2timothy.py` |
 | Titus | 3 | 46 | `scripts/extract_titus.py` |
 | Philemon | 1 | 25 | `scripts/extract_philemon.py` |
+| Hebrews | 13 | 303 | `scripts/extract_hebrews.py` |
+| James | 5 | 108 | `scripts/extract_james.py` |
+| 1 Peter | 5 | 105 | `scripts/extract_1peter.py` |
+| 2 Peter | 3 | 61 | `scripts/extract_2peter.py` |
+| 1 John | 5 | 105 | `scripts/extract_1john.py` |
+| 2 John | 1 | 13 | `scripts/extract_2john.py` |
+| 3 John | 1 | 15 | `scripts/extract_3john.py` |
+| Jude | 1 | 25 | `scripts/extract_jude.py` |
+| Revelation | 22 | 405 | `scripts/extract_revelation.py` |
 
 Output files use the underscore naming convention for numbered books (e.g. `TPT/TPT_1_Timothy.json`).
 

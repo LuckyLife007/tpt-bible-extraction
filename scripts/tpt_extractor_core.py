@@ -508,22 +508,23 @@ def post_process(text):
 # Main extraction engine
 # ---------------------------------------------------------------------------
 
-def extract_book(book_name, start_page, end_page, pdf_path, output_path):
+def tokenize_pages(start_page, end_page, pdf_path, bold_body_overrides=None):
     """
-    Extract a single TPT book from the PDF and save to output_path as JSON.
-
-    Parameters
-    ----------
-    book_name   : str  — e.g. "Galatians"
-    start_page  : int  — 0-indexed first content page
-    end_page    : int  — 0-indexed exclusive end (first page after this book)
-    pdf_path    : str  — path to "The Passion Translation.pdf"
-    output_path : str  — where to write the output JSON
+    Phase 1 of extract_book: scan a page range and produce the raw token
+    streams (all_verse_tokens, fn_words_seq, blue_sample) that the rest of
+    the pipeline consumes. Split out from extract_book verbatim (no logic
+    change) so a book's page range can be tokenized in smaller chunks
+    across multiple calls — needed for very large books (e.g. Matthew,
+    249 pages) where scanning the whole range in one process exceeds the
+    sandbox's per-call time budget. See build_result_from_tokens() for
+    phase 2, and extract_book() which simply chains the two for the
+    normal single-call case (unchanged behavior for every existing book).
 
     Returns
     -------
-    (result_dict, combined_log, blue_sample)
+    (all_verse_tokens, fn_words_seq, blue_sample)
     """
+    bold_body_overrides = bold_body_overrides or {}
 
     all_verse_tokens = []
     fn_words_seq     = []
@@ -536,9 +537,17 @@ def extract_book(book_name, start_page, end_page, pdf_path, output_path):
 
             verse_words = []
             cls_by_id   = {}
+            page_override = bold_body_overrides.get(page_idx)
 
             for w in words:
                 cls = classify_word(w)
+                if cls == 'SKIP' and page_override is not None:
+                    is_bold_84 = abs(w['size'] - 8.4) < 0.5 and is_bold(w['fontname'])
+                    if is_bold_84:
+                        if page_override == 'all':
+                            cls = 'VERSE_TEXT'
+                        elif not any(abs(w['top'] - t) < 3.0 for t in page_override):
+                            cls = 'VERSE_TEXT'
                 if cls in ('CHAPTER_NUM', 'VERSE_NUM', 'FN_MARKER_INLINE', 'VERSE_TEXT'):
                     verse_words.append(w)
                     cls_by_id[id(w)] = cls
@@ -567,6 +576,21 @@ def extract_book(book_name, start_page, end_page, pdf_path, output_path):
                     elif cls == 'VERSE_TEXT':
                         all_verse_tokens.append(('TEXT', text))
 
+    return all_verse_tokens, fn_words_seq, blue_sample
+
+
+def build_result_from_tokens(book_name, all_verse_tokens, fn_words_seq, blue_sample, output_path):
+    """
+    Phase 2 of extract_book: consume the token streams produced by
+    tokenize_pages() (concatenated across all chunks, in page order) and
+    do everything extract_book used to do after tokenizing — chapter/verse
+    parsing, footnote resolution, JSON assembly, save, and stats printing.
+    Split out verbatim from extract_book (no logic change).
+
+    Returns
+    -------
+    (result_dict, combined_log, blue_sample)
+    """
     # -----------------------------------------------------------------------
     # Parse verse token stream → chapters / verses
     # -----------------------------------------------------------------------
@@ -838,3 +862,46 @@ def extract_book(book_name, start_page, end_page, pdf_path, output_path):
         print("  None detected.")
 
     return result, combined_log, blue_sample
+
+
+def extract_book(book_name, start_page, end_page, pdf_path, output_path,
+                  bold_body_overrides=None):
+    """
+    Extract a single TPT book from the PDF and save to output_path as JSON.
+    Thin wrapper chaining tokenize_pages() + build_result_from_tokens() —
+    unchanged behavior/output from before this function was split into two
+    phases (see tokenize_pages() for why: chunked tokenizing across
+    multiple calls is needed for very large books).
+
+    Parameters
+    ----------
+    book_name   : str  — e.g. "Galatians"
+    start_page  : int  — 0-indexed first content page
+    end_page    : int  — 0-indexed exclusive end (first page after this book)
+    pdf_path    : str  — path to "The Passion Translation.pdf"
+    output_path : str  — where to write the output JSON
+    bold_body_overrides : dict, optional — OPT-IN ONLY, default None (no effect on
+        any book that doesn't pass this). Some books render direct-speech quotations
+        in bold ~8.4pt (the same font/size classify_word() normally treats as a
+        section header and skips — see the Hebrews 10:5-9 defect in tpt-progress.md).
+        This param lets a book script correct specific, manually-verified instances
+        without changing default behavior for every other book.
+        Keys are 0-indexed page numbers. Values are either:
+          - the string 'all'  → every bold ~8.4pt run on this page is body text
+            (reclassified VERSE_TEXT instead of SKIP)
+          - a list of top-coordinates (floats) → these specific lines are KEPT as
+            genuine section headers (SKIP); every other bold ~8.4pt line on this
+            page is reclassified to VERSE_TEXT.
+        Every page/line included here must be individually verified by reading the
+        actual PDF content — this is a manually-curated override table, not a
+        heuristic, precisely because a generic geometric rule proved unreliable
+        (genuine headers and quote text sometimes share a page in this book).
+
+    Returns
+    -------
+    (result_dict, combined_log, blue_sample)
+    """
+    all_verse_tokens, fn_words_seq, blue_sample = tokenize_pages(
+        start_page, end_page, pdf_path, bold_body_overrides)
+    return build_result_from_tokens(book_name, all_verse_tokens, fn_words_seq,
+                                     blue_sample, output_path)
