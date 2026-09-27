@@ -1748,6 +1748,10 @@
         {
           "verse": 17,
           "text": "When you fast, don’t let it be obvious, but instead, wash your face {p} and groom yourself",
+          "combined_source": [
+            17,
+            18
+          ],
           "footnotes": [
             {
               "marker": "p",
@@ -1757,7 +1761,11 @@
         },
         {
           "verse": 18,
-          "text": "and realize that your Father in the secret place is the one who is watching all that you do in secret and will continue to reward you openly.”"
+          "text": "and realize that your Father in the secret place is the one who is watching all that you do in secret and will continue to reward you openly.”",
+          "combined_source": [
+            17,
+            18
+          ]
         },
         {
           "verse": 19,
@@ -1911,6 +1919,10 @@
         {
           "verse": 1,
           "text": "“Refuse to be a critic full of bias toward others, and judgment {a} will not be passed on you.",
+          "combined_source": [
+            1,
+            2
+          ],
           "footnotes": [
             {
               "marker": "a",
@@ -1921,6 +1933,10 @@
         {
           "verse": 2,
           "text": "For you’ll be judged by the same standard that you’ve used to judge others. The measurement you use on them will be used on you. {b}",
+          "combined_source": [
+            1,
+            2
+          ],
           "footnotes": [
             {
               "marker": "b",
@@ -2042,15 +2058,30 @@
         },
         {
           "verse": 17,
-          "text": "So if the tree is good, it will produce good fruit;"
+          "text": "So if the tree is good, it will produce good fruit;",
+          "combined_source": [
+            17,
+            18,
+            19
+          ]
         },
         {
           "verse": 18,
-          "text": "but if the tree is bad, it will bear only rotten fruit"
+          "text": "but if the tree is bad, it will bear only rotten fruit",
+          "combined_source": [
+            17,
+            18,
+            19
+          ]
         },
         {
           "verse": 19,
-          "text": "and it deserves to be cut down and burned."
+          "text": "and it deserves to be cut down and burned.",
+          "combined_source": [
+            17,
+            18,
+            19
+          ]
         },
         {
           "verse": 20,
@@ -2211,11 +2242,19 @@
         },
         {
           "verse": 8,
-          "text": "But the Roman officer interjected, “Lord, who am I to have you come into my house?"
+          "text": "But the Roman officer interjected, “Lord, who am I to have you come into my house?",
+          "combined_source": [
+            8,
+            9
+          ]
         },
         {
           "verse": 9,
-          "text": "I understand your authority, for I too am a man who walks under authority and have authority over soldiers who serve under me. I can tell one to go and he’ll go, and another to come and he’ll come. I order my servants and they’ll do whatever I ask. So I know that all you need to do is to stand here and command healing over my son and he will be instantly healed.”"
+          "text": "I understand your authority, for I too am a man who walks under authority and have authority over soldiers who serve under me. I can tell one to go and he’ll go, and another to come and he’ll come. I order my servants and they’ll do whatever I ask. So I know that all you need to do is to stand here and command healing over my son and he will be instantly healed.”",
+          "combined_source": [
+            8,
+            9
+          ]
         },
         {
           "verse": 10,
@@ -3035,11 +3074,19 @@
         },
         {
           "verse": 30,
-          "text": "So don’t worry."
+          "text": "So don’t worry.",
+          "combined_source": [
+            30,
+            31
+          ]
         },
         {
           "verse": 31,
           "text": "For your Father cares deeply about even the smallest detail of your life. {y}",
+          "combined_source": [
+            30,
+            31
+          ],
           "footnotes": [
             {
               "marker": "y",
@@ -3163,6 +3210,14 @@
         {
           "verse": 4,
           "text": "Jesus answered them, “Give John this report: ‘The blind see again, the crippled walk, lepers are cured, the deaf hear, the dead are raised back to life, and the poor and broken now hear of the hope of salvation!’ {a}",
+          "versification": {
+            "type": "merge",
+            "kjv": [
+              "11:4",
+              "11:5"
+            ],
+            "note": "TPT prints no verse 5 (the body text jumps 4 to 6); KJV v5's content ('The blind receive their sight...') is folded into v4. Source footnote 'a' is labeled 11:5 in the apparatus. No placeholder v5 entry exists in this file by design."
+          },
           "footnotes": [
             {
               "marker": "a",
@@ -7680,11 +7735,21 @@
         },
         {
           "verse": 2,
-          "text": "Five of them were foolish and ill-prepared,"
+          "text": "Five of them were foolish and ill-prepared,",
+          "combined_source": [
+            2,
+            3,
+            4
+          ]
         },
         {
           "verse": 3,
           "text": "for they took no extra oil {b} for their lamps.",
+          "combined_source": [
+            2,
+            3,
+            4
+          ],
           "footnotes": [
             {
               "marker": "b",
@@ -7694,7 +7759,12 @@
         },
         {
           "verse": 4,
-          "text": "Five of them were wise and sensible, for they took flasks of olive oil with their lamps."
+          "text": "Five of them were wise and sensible, for they took flasks of olive oil with their lamps.",
+          "combined_source": [
+            2,
+            3,
+            4
+          ]
         },
         {
           "verse": 5,
@@ -7973,11 +8043,19 @@
         },
         {
           "verse": 6,
-          "text": "Then Jesus went to Bethany, to the home of Simon, a man Jesus had healed of leprosy."
+          "text": "Then Jesus went to Bethany, to the home of Simon, a man Jesus had healed of leprosy.",
+          "combined_source": [
+            6,
+            7
+          ]
         },
         {
           "verse": 7,
           "text": "A woman came into the house, holding an alabaster flask {c} filled with fragrant and expensive oil. {d} She walked right up to Jesus, and in a lavish gesture of devotion, she poured out the costly oil, and it cascaded over his head as he was at the table.",
+          "combined_source": [
+            6,
+            7
+          ],
           "footnotes": [
             {
               "marker": "c",
@@ -9084,6 +9162,11 @@
         {
           "verse": 2,
           "text": "Suddenly, the earth shook violently beneath their feet as the angel of the Lord Jehovah {b} descended from heaven.",
+          "combined_source": [
+            2,
+            3,
+            4
+          ],
           "footnotes": [
             {
               "marker": "b",
@@ -9093,11 +9176,21 @@
         },
         {
           "verse": 3,
-          "text": "Lightning flashed around him and his robe was dazzling white!"
+          "text": "Lightning flashed around him and his robe was dazzling white!",
+          "combined_source": [
+            2,
+            3,
+            4
+          ]
         },
         {
           "verse": 4,
-          "text": "The guards were stunned and terrified—lying motionless like dead men. Then the angel walked up to the tomb, rolled away the stone, and sat on top of it!"
+          "text": "The guards were stunned and terrified—lying motionless like dead men. Then the angel walked up to the tomb, rolled away the stone, and sat on top of it!",
+          "combined_source": [
+            2,
+            3,
+            4
+          ]
         },
         {
           "verse": 5,

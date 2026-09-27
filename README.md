@@ -37,11 +37,12 @@ All extraction logic is in `scripts/tpt_extractor_core.py` — never edit the st
 
 ## Current status
 
-20 of 27 New Testament books extracted (6 committed March 2026; 1 & 2 Timothy, Titus, Philemon, Hebrews, James, 1–2 Peter, 1–3 John, Jude, Revelation, Matthew added June–July 2026) — 3116 verses total. Still to do: Mark, Luke, John, Acts, Romans, 1–2 Corinthians (7 NT books), plus the OT selections (Psalms, Proverbs, Song of Solomon).
+21 of 27 New Testament books extracted (6 committed March 2026; 1 & 2 Timothy, Titus, Philemon, Hebrews, James, 1–2 Peter, 1–3 John, Jude, Revelation, Matthew added June–July 2026; Mark added September 2026) — 3793 verses total. Still to do: Luke, John, Acts, Romans, 1–2 Corinthians (6 NT books), plus the OT selections (Psalms, Proverbs, Song of Solomon).
 
 | Book | Chapters | Verses | Script |
 |------|----------|--------|--------|
 | Matthew | 28 | 1070 | `scripts/extract_matthew.py` |
+| Mark | 16 | 677 | `scripts/extract_mark.py` |
 | Galatians | 6 | 149 | `scripts/extract_galatians.py` |
 | Ephesians | 6 | 155 | `scripts/extract_ephesians.py` |
 | Philippians | 4 | 104 | `scripts/extract_philippians.py` |

@@ -65,6 +65,7 @@ Books to extract:
 - `"footnotes"` is an array — **omit the field entirely** if the verse has no footnotes
 - `"cross_references"` is an optional array within each footnote — **omit entirely** if the footnote has no cross-references (do not write an empty array)
 - `"combined_source"` is an optional array — see Combined Verses section below
+- `"versification"` is an optional object — see Versification Differences section below
 - All chapters and verses are in ascending order
 
 ---
@@ -133,6 +134,42 @@ After splitting, **every verse that originated from a combined passage** receive
 ```
 
 This field is present on **all** verses from the original group, not just the first. It allows the display software to know that these were originally one passage in the source text.
+
+---
+
+## Versification Differences
+
+Distinct from combined verses: sometimes the TPT's **verse numbering itself** differs from KJV, because TPT follows modern (UBS/NA-style) versification while KJV follows the Textus Receptus. Nothing was printed as a merged range and nothing needs splitting — the verse map is simply different. These are genuine translation-tradition differences, **not extraction defects** (always confirm against the raw PDF, including the footnote apparatus, before concluding which one it is).
+
+### `versification` Field
+
+Every verse touched by a versification difference receives a `versification` object:
+
+```json
+"versification": {
+  "type": "split | merge | moved | omitted",
+  "kjv": ["<chapter:verse>", "..."],
+  "note": "<human-readable explanation>"
+}
+```
+
+- `type` — `split` (one KJV verse → multiple TPT verses), `merge` (multiple KJV verses → one TPT verse), `moved` (content sits under a different chapter/verse number than KJV, e.g. across a chapter boundary), `omitted` (TPT does not print a KJV verse at all — its text appears only as a manuscript-variant footnote, if anywhere; the tag goes on the preceding printed verse, and `kjv` lists the omitted verse)
+- `kjv` — the KJV verse reference(s), chapter-qualified, whose content this TPT verse holds (in whole or in part)
+- `note` — plain-English explanation, including any confirming evidence from the source (e.g. a footnote apparatus label)
+
+Rules:
+- The tag goes on **all touched verses**, mirroring `combined_source` (e.g. both halves of a split)
+- **No placeholder entries** are created for verse numbers the TPT does not print (e.g. Matthew 11:5) — the JSON stays faithful to the printed text; the `merge` or `omitted` tag on the adjacent printed verse explains the gap
+- Omit the field entirely on unaffected verses
+
+### Known Cases
+
+| Book | TPT verses tagged | Type | Difference |
+|------|-------------------|------|------------|
+| 3 John | 1:14, 1:15 | `split` | KJV v14's closing greetings become TPT's own v15 |
+| Revelation | 12:18, 13:1 | `moved` | KJV 13:1's opening clause ("And I stood upon the sand of the sea") is TPT 12:18 |
+| Matthew | 11:4 | `merge` | KJV v5 is folded into TPT v4; no verse 5 is printed (footnote `a` still labeled "11:5" in the apparatus) |
+| Mark | 7:15 | `omitted` | No verse 16 is printed (text jumps 15 to 17); footnote `k` on v15 gives KJV v16 ("If anyone has ears to hear, let him hear.") as a manuscript variant |
 
 ---
 
@@ -328,6 +365,7 @@ After each book extraction, verify:
 - [ ] `"footnotes"` field omitted where there are no footnotes
 - [ ] Combined verses reported and reviewed
 - [ ] `"combined_source"` field added to all split verses
+- [ ] Verse-count mismatches vs KJV investigated against the raw PDF — if a genuine versification difference, `"versification"` field added to all touched verses (see Versification Differences section)
 - [ ] Post-processing applied (no leading/trailing spaces before punctuation)
 - [ ] Blue multi-character spans in footnote bodies extracted into `cross_references` array
 - [ ] All book names in `cross_references` are full canonical names (no abbreviations)

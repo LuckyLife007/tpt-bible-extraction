@@ -3294,6 +3294,13 @@
         {
           "verse": 18,
           "text": "And the dragon stood {l} on the sand of the seashore.",
+          "versification": {
+            "type": "moved",
+            "kjv": [
+              "13:1"
+            ],
+            "note": "KJV prints this clause as the opening of 13:1 ('And I stood upon the sand of the sea'); TPT numbers it 12:18 per modern (UBS/NA) versification. Source footnote 'l' is labeled 12:18 in the apparatus."
+          },
           "footnotes": [
             {
               "marker": "l",
@@ -3309,6 +3316,13 @@
         {
           "verse": 1,
           "text": "Then I saw a wild beast {a} rising from the sea with ten horns and seven heads. On its horns were ten royal crowns, and on its heads were blasphemous names.",
+          "versification": {
+            "type": "moved",
+            "kjv": [
+              "13:1"
+            ],
+            "note": "Corresponds to KJV 13:1 minus its opening clause ('And I stood upon the sand of the sea'), which TPT numbers as 12:18 per modern (UBS/NA) versification."
+          },
           "footnotes": [
             {
               "marker": "a",

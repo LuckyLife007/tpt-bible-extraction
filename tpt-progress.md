@@ -9,6 +9,32 @@
 
 ## Completed
 
+### Mark ✅ Complete
+- **Chapters:** 16
+- **Verses:** 677 (KJV has 678 — see versification note below)
+- **Footnotes resolved:** 407
+- **Footnotes with cross_references:** 82
+- **Total cross_references:** 111
+- **Script:** `extract_mark.py` (v3 parser; pages 1019–1178, END exclusive, 159 pages). Extracted in Cowork with the chunked helpers `extract_mark_chunk.py` / `extract_mark_merge.py` (same one-off pattern as Matthew). Re-run as a single `extract_book()` call in Claude Code on 2026-09-27 (~47s): output identical to the committed JSON before the splits and the versification tag.
+- **Output:** `TPT/TPT_Mark.json`
+- **Versification note (Mark 7:16) — new `omitted` type:** the PDF (p. 1077) prints no verse 16; the body text jumps from 15 to 17. Footnote `k` on v15 (apparatus p. 1081, labeled "7:15") reads: "Some Greek manuscripts and the Aramaic add v. 16, “If anyone has ears to hear, let him hear.”" None of `split`/`merge`/`moved` fits (v15 does not contain v16's content), so the user chose a fourth type, `omitted`, tagged on v15 with `kjv: ["7:16"]`. No placeholder v16. Schema updated in `tpt-extraction-guide.md`. (Contrast: Matthew 17:21, 18:11 and 23:14, which many modern translations omit, ARE printed by the TPT and need no tag.)
+
+**Bold-quote defect — present again, fixed via the same opt-in override table:**
+All 159 pages were scanned and every bold ~8.4pt line manually classified (see `extract_mark.py` docstring). Table: 30 all-body pages + 60 mixed header/body pages.
+- **Edge case:** page 1079's only bold line ("Ethpathakh,") is quoted speech, not a header — same trap as Matthew's page 823.
+- **New edge case:** the header "Jesus Drives Merchants Out of the Temple / Courts" breaks across pages 1119–1120; "Courts" is the lone first bold line of p1120 and is a header continuation, not body text.
+- **Coverage check (2026-09-27):** 19 pages have bold ~8.4pt text but are not in the table; all 19 hold only genuine section headers (e.g. "The Wonderful News", "Jesus and Barabbas"). No table entry points at a line that does not exist.
+- Short-verse-text scan: no verse under 25 characters.
+
+**Combined verses — 5 found, all split.** All five are printed as ranges ("8–9", "17–18", "49–50", "40–41", "1–2"). 6:49–50 was split in Cowork; the other four were split on 2026-09-27 per the user's approval of each recommended split. All 10 verses carry `combined_source`; each footnote follows its marker.
+| Verses | KJV | TPT combined | Split applied |
+|--------|-----|---------------|----------------|
+| 6:8–9 | v8 take nothing but a staff; no scrip, bread, money; v9 sandals, not two coats | "“Take only your staff and the sandals on your feet—no bread, no knapsack, no extra garment, and no money. {g}" | TPT reorders (sandals and garment mixed into v8's list). v8 = "“Take only your staff and the sandals on your feet—no bread, no knapsack," / v9 = "no extra garment, and no money. {g}" |
+| 6:17–18 | v17 Herod bound John for Herodias' sake; v18 John said it is not lawful | "For Herod had John arrested and thrown into prison for repeatedly rebuking him in public, saying, “You have no right to marry Herodias, the wife of your brother Philip! You are violating the law of God!” {i}" | Near-clean (Herodias named inside the quote). v17 = "...rebuking him in public, saying," / v18 = the quotation with {i} |
+| 6:49–50 | v49 saw him walking on the sea, supposed a spirit; v50 all saw him, troubled; "Be of good cheer: it is I" | "When they all saw him walking on the waves, they thought he was a ghost and screamed out in terror. But he said to them at once, “Don’t yield to fear. Have courage. It’s really me—I Am!” {x}" | Clean, at the sentence break (split in Cowork) |
+| 15:40–41 | v40 women afar off; Mary Magdalene, Mary mother of James and Joses, Salome; v41 followed him in Galilee; many other women came to Jerusalem | "Watching from a distance, away from the crowds, were many of the women who had followed Jesus from Galilee and had cared for him. {aa} Among them were Mary Magdalene, {ab} Mary the mother of Jacob the younger {ac} and Joseph, {ad} and Salome. Many other women who had followed him to Jerusalem were there too. {ae}" | TPT reorders (Galilee content first). v40 = first two sentences ({aa}–{ad}) / v41 = "Many other women who had followed him to Jerusalem were there too. {ae}" |
+| 16:1–2 | v1 sabbath past; the three women bought spices to anoint him; v2 very early, first day, came to the sepulchre at sunrise | "On the first day of the week, as the Sabbath was ending, Mary Magdalene, Mary the mother of Jacob, and Salome made their way to the tomb. It was very early in the morning as the first streaks of light were beginning to be seen in the sky. They had purchased aromatic embalming spices so that they might anoint his body." | TPT reorders (spices last). v1 = first sentence / v2 = last two sentences |
+
 ### Matthew ✅ Complete
 - **Chapters:** 28
 - **Verses:** 1070 (KJV has 1071 — see versification note below)
@@ -17,7 +43,8 @@
 - **Total cross_references:** 149
 - **Script:** `extract_matthew.py` (v3 parser; pages 761–1010, END exclusive — the largest book yet, 249 pages, nearly double Revelation's 132)
 - **Output:** `TPT/TPT_Matthew.json`
-- **Versification note (Matt 11:4/5):** the printed PDF has no separate verse-5 number at all — it jumps straight from "4" to "6". TPT folds KJV v5's content ("the blind receive their sight...") into v4's quoted text. Confirmed genuine (not a defect) via the footnote apparatus: footnote `a` is explicitly labeled "11:5" even though no verse 5 exists as a separate printed entry. Footnote `a` was manually attached to v4 since that's where its content now lives.
+- **Versification note (Matt 11:4/5):** the printed PDF has no separate verse-5 number at all — it jumps straight from "4" to "6". TPT folds KJV v5's content ("the blind receive their sight...") into v4's quoted text. Confirmed genuine (not a defect) via the footnote apparatus: footnote `a` is explicitly labeled "11:5" even though no verse 5 exists as a separate printed entry. Footnote `a` was manually attached to v4 since that's where its content now lives. Tagged with `versification` (`merge`) on v4 as of 2026-07-22; no placeholder v5 by design.
+- **`combined_source` backfill (2026-07-22):** the 8 split groups below had been split in the text but their `combined_source` tags were missed at extraction time — backfilled and verified on all 19 affected verses.
 - **⚠ Extraction required a new technique — chunked tokenize/build split:** at 249 pages (~0.4s/page to tokenize), a single-call extraction exceeds the sandbox's ~45s per-command budget, and background processes don't survive between tool calls here. `tpt_extractor_core.py`'s `extract_book()` was split into two pure phases — `tokenize_pages()` (page-range → raw token streams) and `build_result_from_tokens()` (token streams → parsed JSON + stats) — with `extract_book()` now just chaining them, unchanged behavior. This let Matthew's page range be tokenized in 5 chunks (pickled to disk) and merged in one final build step. Regression-verified byte-identical output against the already-completed Jude before trusting it. One-off helper scripts `extract_matthew_chunk.py` / `extract_matthew_merge.py` are not part of the standard per-book pattern — future very-large books (Mark, Luke, John, Acts are all sizeable) may need the same approach; smaller books should keep using `extract_book()` directly in one call.
 
 **⚠ Bold-quote defect — confirmed at even larger scale than Revelation, fixed via the same opt-in mechanism:**
@@ -49,7 +76,7 @@ Per the user's explicit instruction to prioritize accuracy over speed, the entir
 - **Script:** `extract_revelation.py` (v3 parser; pages 2801–2933, END exclusive — by far the largest book extracted so far, 132 pages)
 - **Output:** `TPT/TPT_Revelation.json`
 - **Combined verses:** None detected.
-- **Versification note (Rev 12:17–18):** KJV keeps "and stood upon the sand of the sea" as the tail of v17; TPT (like 3 John 14/15) splits it into its own v18. Confirmed via the footnote apparatus itself — footnote `l` is explicitly labeled `12:18` in the source. Not a bug.
+- **Versification note (Rev 12:18):** in KJV, "And I stood upon the sand of the sea" is the *opening clause of 13:1* (an earlier version of this note wrongly said it was v17's tail); TPT numbers that clause as its own 12:18, per modern versification. Confirmed via the footnote apparatus itself — footnote `l` is explicitly labeled `12:18` in the source. Not a bug. Tagged with `versification` (`moved`) on 12:18 and 13:1 as of 2026-07-22.
 - **Minor OCR/PDF glitch fixed:** `22:6` extracted as "swift1ly" (a stray "1" embedded mid-word, same font/size as the surrounding text — a PDF rendering artifact, not a footnote marker). The identical phrase "swiftly" elsewhere in the book (1:1) extracted cleanly, confirming this was page-specific noise. Fixed by direct text correction; scanned the whole book for other embedded-digit artifacts and found none.
 
 **⚠ Major parser defect found and FIXED in the shared core (not just worked around) — see "Bold-quote defect" in Notes & Concerns for full detail:**
@@ -82,7 +109,7 @@ Given the scale (multiple full chapters, ~20 pages of affected content), hand-re
 - **Script:** `extract_3john.py` (v3 parser; pages 2756–2762, END exclusive)
 - **Output:** `TPT/TPT_3_John.json`
 - **Combined verses:** None — no splits required.
-- **⚠ Verse-count "mismatch" investigated and confirmed NOT a bug:** KJV 3 John has 14 verses; TPT has 15. This is a genuine versification difference between translation traditions, not a parser defect — KJV (Textus Receptus) keeps "I hope to visit you and speak face-to-face. Peace to you, my friend..." as one verse 14, while TPT (like most modern translations, following UBS/NA versification) splits it into separate 14 and 15. Confirmed directly in the raw PDF: both "14" and "15" are printed as distinct superscript verse numbers before their respective sentences. No text was dropped or duplicated. **Implication for future books:** the standard "compare extracted count to KJV" check can produce false-positive mismatches when a book has different versification between translation traditions — always inspect the raw PDF before assuming a drop occurred, the same way real defects (like the Hebrews bold-quote issue) are confirmed by inspecting raw PDF words, not by the count alone.
+- **⚠ Verse-count "mismatch" investigated and confirmed NOT a bug:** KJV 3 John has 14 verses; TPT has 15. This is a genuine versification difference between translation traditions, not a parser defect — KJV (Textus Receptus) keeps "I hope to visit you and speak face-to-face. Peace to you, my friend..." as one verse 14, while TPT (like most modern translations, following UBS/NA versification) splits it into separate 14 and 15. Confirmed directly in the raw PDF: both "14" and "15" are printed as distinct superscript verse numbers before their respective sentences. No text was dropped or duplicated. Tagged with `versification` (`split`) on vv. 14 and 15 as of 2026-07-22. **Implication for future books:** the standard "compare extracted count to KJV" check can produce false-positive mismatches when a book has different versification between translation traditions — always inspect the raw PDF before assuming a drop occurred, the same way real defects (like the Hebrews bold-quote issue) are confirmed by inspecting raw PDF words, not by the count alone.
 - **Note:** Checked for the Hebrews bold-quote defect — every bold ~8.4pt run in this book was a single-line section header, no multi-line runs found.
 
 ---
@@ -378,7 +405,7 @@ Books to extract (New Testament + Psalms, Proverbs, Song of Solomon):
 
 ### New Testament
 - [x] **Matthew** ✅
-- [ ] Mark
+- [x] **Mark** ✅
 - [ ] Luke
 - [ ] John
 - [ ] Acts
@@ -387,7 +414,6 @@ Books to extract (New Testament + Psalms, Proverbs, Song of Solomon):
 - [ ] 2 Corinthians
 - [x] **Galatians** ✅
 - [x] **Ephesians** ✅
-- [ ] Colossians
 - [x] **1 Thessalonians** ✅
 - [x] **2 Thessalonians** ✅
 - [x] **1 Timothy** ✅
@@ -415,19 +441,21 @@ Books to extract (New Testament + Psalms, Proverbs, Song of Solomon):
 
 ## Next Steps
 
-**⚠ BLOCKING — do this FIRST, before starting Mark or any other new book extraction:**
-The user wants to revisit and address the TPT versification-difference handling itself (not just document it as "not a bug" and move past it) — all three examples found so far need to be reviewed together before extraction work continues:
-- **3 John 14/15** — KJV's v14 tail ("Peace be to thee...") is split into its own v15 in TPT.
-- **Revelation 12:17/18** — KJV keeps "and stood upon the sand of the sea" as v17's tail; TPT splits it into its own v18. Confirmed via footnote `l` explicitly labeled "12:18" in the source.
-- **Matthew 11:4/5** — the PDF prints NO verse-5 number at all (jumps 4→6 in the body text); TPT folds KJV v5's content into v4. Confirmed via footnote `a` explicitly labeled "11:5" in the source even though no verse 5 is ever printed. See Matthew's entry above for the full JSON representation (no placeholder v5 created; footnote `a` manually attached to v4).
-Requested explicitly on 2026-07-21, right after Matthew was finished: "the first thing I want to address is this TPT versification choice as well as all the examples you listed of where it has occurred. This must be addressed first before we start extracting the next book." Do not start Mark until this is resolved.
+**✅ RESOLVED (2026-07-22) — versification-difference handling (was blocking Mark):**
+All three known versification differences are now represented with a machine-readable `versification` field (schema documented in `tpt-extraction-guide.md`, "Versification Differences" section): `{type: split|merge|moved, kjv: ["ch:verse", ...], note: "..."}`, applied per the operator's decisions to **all touched verses**, with **no placeholder entries** for verse numbers the TPT doesn't print:
+- **3 John 14/15** (`split`) — tagged on TPT vv. 14 and 15; both hold KJV v14's content.
+- **Revelation 12:18 / 13:1** (`moved`) — tagged on both. **Correction to earlier log entries:** KJV does NOT keep "and stood upon the sand of the sea" as v17's tail — in KJV it is the *opening clause of 13:1*. TPT numbers that clause 12:18 per modern versification (footnote `l` labeled "12:18" in the apparatus).
+- **Matthew 11:4** (`merge`) — tagged on v4 only (KJV v5's content folded in; no v5 entry exists by design; footnote `a` labeled "11:5" in the apparatus remains attached to v4).
+- **Mark 7:15** (`omitted`, added 2026-09-27) — fourth type, for a KJV verse the TPT does not print at all (7:16 appears only in footnote `k` as a manuscript variant). Tagged on v15; no v16 entry.
 
-**Immediate priority — after the above is resolved:**
-1. 20 of the 27 NT books are done (all epistles Galatians–Jude, Revelation, and now Matthew); Mark, Luke, John, Acts, Romans, 1–2 Corinthians (7 books) plus the 3 OT selections (Psalms, Proverbs, Song of Solomon) remain — 10 books left out of 30 total in scope.
-   - Suggested next: Mark, continuing canonical order through the Gospels/Acts/Romans/Corinthians, then the 3 OT books.
+**Also fixed (2026-07-22):** Matthew's 8 combined-verse split groups (6:17–18, 7:1–2, 7:17–19, 8:8–9, 10:30–31, 25:2–4, 26:6–7, 28:2–4) had been split in the text but were **missing their `combined_source` tags** (same documentation-vs-file gap Philippians once had). Backfilled on all 19 affected verses and verified; all other verse text confirmed byte-identical.
+
+**Immediate priority — Luke:**
+1. 21 of the 27 NT books are done (all epistles Galatians–Jude, Revelation, Matthew, and now Mark — 3793 verses); Luke, John, Acts, Romans, 1–2 Corinthians (6 books) plus the 3 OT selections (Psalms, Proverbs, Song of Solomon) remain — 9 books left out of 30 total in scope.
+   - Suggested next: Luke, continuing canonical order through the Gospels/Acts/Romans/Corinthians, then the 3 OT books.
    - Single-chapter support is in the core (chapter defaults to 1; verse-only footnote refs resolved) — not relevant to any of the remaining 10 books.
    - **Versification-difference note:** when a verse-count check flags a mismatch, don't assume it's a bug — inspect the raw PDF first (check the footnote apparatus for an explicit verse-number label, as with 3 John 14/15, Rev 12:17/18, and Matt 11:4/5 — the latter had no printed verse number at all, only the footnote apparatus confirmed it). It could be a genuine translation-versification difference, which is not an error.
-   - **⚠ Bold-quote defect — status per book:** Found in Hebrews (10:5–9, minor), Revelation (chapters 2–3 almost entirely, plus 16:15 and 22:6–20 — major), and now Matthew (roughly two-thirds of chapters — every extended discourse). Fixed via the same opt-in, manually-verified override table mechanism each time (see each book's entry above) — it does NOT auto-generalize; each new book needs its own from-scratch page-by-page review before extraction. **Expect the same pattern in Mark, Luke, John** (all Gospels have extensive red-letter dialogue) — budget real investigation time, don't extract-then-discover.
+   - **⚠ Bold-quote defect — status per book:** Found in Hebrews (10:5–9, minor), Revelation (chapters 2–3 almost entirely, plus 16:15 and 22:6–20 — major), Matthew (roughly two-thirds of chapters — every extended discourse), and Mark (90 of 159 pages in the override table). Fixed via the same opt-in, manually-verified override table mechanism each time (see each book's entry above) — it does NOT auto-generalize; each new book needs its own from-scratch page-by-page review before extraction. **Expect the same pattern in Luke and John** (all Gospels have extensive red-letter dialogue) — budget real investigation time, don't extract-then-discover.
    - **Verse-count checks are not sufficient on their own** — a chapter's count can match KJV even when a verse's bold body text was silently dropped (only the verse number survived; confirmed in Rev 16, 22, and nearly missed in Matt 4:10 — caught only by the short-verse-text scan). Always also scan for abnormally short verse texts (e.g. text that's just a footnote marker) after stripping `{marker}` tags, in addition to the per-chapter KJV count comparison. For very large books, also systematically verify every page with any bold ~8.4pt content appears in the override table at all — a manual review can still have gaps (see Matthew's page 783 near-miss).
    - **⚠ Large books (150+ pages) need the chunked tokenize/build extraction approach**, not a single `extract_book()` call — see Matthew's entry above and `tokenize_pages()`/`build_result_from_tokens()` in `tpt_extractor_core.py`. Mark/Luke/John/Acts should be checked for page count before assuming a single-call extraction will fit the sandbox's per-command time budget.
    - **Combined-verse detection gap:** the parser's `combined` flag misses verses where the PDF prints no verse-number digit at all for the chapter's opening verse(s) (see Matt 7:1–2 in the entry above, and [[feedback-combined-verse-splits]]). Always additionally scan for any group of verses with byte-identical text, not just parser-flagged ones.

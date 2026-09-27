@@ -191,6 +191,13 @@
         {
           "verse": 14,
           "text": "Instead, I hope to visit you and speak with you face-to-face. {u}",
+          "versification": {
+            "type": "split",
+            "kjv": [
+              "1:14"
+            ],
+            "note": "KJV v14 spans TPT vv. 14-15; TPT follows modern (UBS/NA) versification, which splits KJV v14's closing greetings into a separate v15."
+          },
           "footnotes": [
             {
               "marker": "u",
@@ -200,7 +207,14 @@
         },
         {
           "verse": 15,
-          "text": "Peace to you, my friend. Your friends here send their loving greetings to you. Please greet each one of our friends there by name."
+          "text": "Peace to you, my friend. Your friends here send their loving greetings to you. Please greet each one of our friends there by name.",
+          "versification": {
+            "type": "split",
+            "kjv": [
+              "1:14"
+            ],
+            "note": "KJV v14 spans TPT vv. 14-15; TPT follows modern (UBS/NA) versification, which splits KJV v14's closing greetings into a separate v15."
+          }
         }
       ]
     }
